@@ -21,11 +21,13 @@ Video File: mark_shuttleworth_Xvid.avi
 Video AR Mode: 4
 Video AR Value: 1.500000
 Video Zoom Percent: 0.875000
-Video Position: 1293
+Scroll Position: 566
+Active Line: 588
+Video Position: 44307
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Chinese,Sans,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Chinese,Source Han Sans SC,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,30,1
 Style: English,Sans,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
@@ -34,239 +36,593 @@ Dialogue: 0,0:00:09.65,0:00:17.74,Chinese,,0,0,0,,我很高兴借这次机会，
 Dialogue: 0,0:00:17.74,0:00:24.22,Chinese,,0,0,0,,Mark Shuttleworth 是 Ubuntu 的创始人，可能大家已经听说过他的大名了
 Dialogue: 0,0:00:24.30,0:00:31.37,Chinese,,0,0,0,,去年在北航我们曾经做过一次这样的演讲，当时现场反应也比较热烈
 Dialogue: 0,0:00:31.37,0:00:37.00,Chinese,,0,0,0,,所以这回 Mark 来中国的时候我们就安排了这次是在上海
-Dialogue: 0,0:00:37.00,0:00:43.14,Chinese,,0,0,0,,因为在北京已经做过了，这也是一次难得的机会
+Dialogue: 0,0:00:37.00,0:00:43.14,Chinese,,0,0,0,,因为已经在北京做过了，这也是一次难得的机会
 Dialogue: 0,0:00:43.14,0:00:54.60,Chinese,,0,0,0,,我就不多说了，下面有请 Mark Shuttleworth 为大家讲述他自己的经历和有关开源软件的一些概念和故事，谢谢
+Dialogue: 0,0:00:58.82,0:01:02.45,Chinese,,0,0,0,,大家下午好。来到这里真是太好了
 Dialogue: 0,0:00:58.82,0:01:02.45,English,,0,0,0,,Good afternoon everybody. It's wonderful to be here
+Dialogue: 0,0:01:03.41,0:01:07.75,Chinese,,0,0,0,,Amy 告诉我，你们都是不同专业的学生
 Dialogue: 0,0:01:03.41,0:01:07.75,English,,0,0,0,,Amy tells me that you would all be students of a whole bunch of different things
+Dialogue: 0,0:01:07.75,0:01:12.48,Chinese,,0,0,0,,在我开始演讲之前，我想知道有关你们的一些情况
 Dialogue: 0,0:01:07.75,0:01:12.48,English,,0,0,0,,and I'm keen to know a little bit about you before I start at speaking
+Dialogue: 0,0:01:12.48,0:01:16.96,Chinese,,0,0,0,,所以你们能不能告诉我你们在学习什么专业？
 Dialogue: 0,0:01:12.48,0:01:16.96,English,,0,0,0,,so could you give me some indication of what you guys are studying
+Dialogue: 0,0:01:17.01,0:01:19.02,Chinese,,0,0,0,,这里有多少人在学习商科？
 Dialogue: 0,0:01:17.01,0:01:19.02,English,,0,0,0,,How many guys here are studying business
+Dialogue: 0,0:01:19.72,0:01:20.77,Chinese,,0,0,0,,在大学中学习商科
 Dialogue: 0,0:01:19.72,0:01:20.77,English,,0,0,0,,here at university
+Dialogue: 0,0:01:24.80,0:01:25.82,Chinese,,0,0,0,,工程专业？
 Dialogue: 0,0:01:24.80,0:01:25.82,English,,0,0,0,,Engineer?
+Dialogue: 0,0:01:26.51,0:01:28.11,Chinese,,0,0,0,,计算机工程？
 Dialogue: 0,0:01:26.51,0:01:28.11,English,,0,0,0,,Computer engineering
+Dialogue: 0,0:01:29.03,0:01:31.53,Chinese,,0,0,0,,你们中的大多数人都在学习计算机工程
 Dialogue: 0,0:01:29.03,0:01:31.53,English,,0,0,0,,majority of you are studying computer engineering
+Dialogue: 0,0:01:31.81,0:01:34.97,Chinese,,0,0,0,,你们当中有多少人愿意自己创业？
 Dialogue: 0,0:01:31.81,0:01:34.97,English,,0,0,0,,How many of you will prefer to start your own businesses
+Dialogue: 0,0:01:34.97,0:01:38.02,Chinese,,0,0,0,,又有多少人愿意在大公司工作？
 Dialogue: 0,0:01:34.97,0:01:38.02,English,,0,0,0,,and how many would prefer to start working in large company?
+Dialogue: 0,0:01:38.69,0:01:41.22,Chinese,,0,0,0,,那么，有多少人愿意在大公司开始工作？
 Dialogue: 0,0:01:38.69,0:01:41.22,English,,0,0,0,,So how many would prefer to start working in a large company
+Dialogue: 0,0:01:43.07,0:01:45.37,Chinese,,0,0,0,,又有多少人想自己创业？
 Dialogue: 0,0:01:43.07,0:01:45.37,English,,0,0,0,,and how many of you want to start your own businesses
+Dialogue: 0,0:01:47.79,0:01:50.46,Chinese,,0,0,0,,我可以告诉你，在这群人中，谁会成为真正的富人
 Dialogue: 0,0:01:47.79,0:01:50.46,English,,0,0,0,,I can tell you who's gonna be really wealthy out of the crowd
+Dialogue: 0,0:01:50.46,0:01:53.79,Chinese,,0,0,0,,就是那些举手说要自己创业的人。
 Dialogue: 0,0:01:50.46,0:01:53.79,English,,0,0,0,,the people who put up their hands up to say they're gonna start their own businesses
+Dialogue: 0,0:01:56.02,0:02:01.51,Chinese,,0,0,0,,我今天想简单谈谈创业，因为
 Dialogue: 0,0:01:56.02,0:02:01.51,English,,0,0,0,,What I thought I would talk about today is entrepreneurship because
-Dialogue: 0,0:02:01.58,0:02:09.14,English,,0,0,0,,I believe that economical change is just as important as technological change which is just as important as social change
+Dialogue: 0,0:02:01.58,0:02:06.20,Chinese,,0,0,0,,我相信经济变革与技术变革同样重要
+Dialogue: 0,0:02:01.58,0:02:06.20,English,,0,0,0,,I believe that economical change is just as important as technological change
+Dialogue: 0,0:02:06.20,0:02:09.14,Chinese,,0,0,0,,而技术变革与社会变革同样重要。
+Dialogue: 0,0:02:06.20,0:02:09.14,English,,0,0,0,,which is just as important as social change
+Dialogue: 0,0:02:09.16,0:02:13.53,Chinese,,0,0,0,,而真正推动经济变革的是创业者
 Dialogue: 0,0:02:09.16,0:02:13.53,English,,0,0,0,,And it's entrepreneurs who really drive economical change
-Dialogue: 0,0:02:13.53,0:02:20.25,English,,0,0,0,,It's entrepreneurs who effectively take new ideas, turn them into new businesses, and turn them into global phenomenons
-Dialogue: 0,0:02:20.62,0:02:24.08,English,,0,0,0,,And I'm convinced that this is a country which gonna produce
+Dialogue: 0,0:02:13.53,0:02:17.78,Chinese,,0,0,0,,是企业家有效地利用新的想法，把它们变成新的企业
+Dialogue: 0,0:02:13.53,0:02:17.78,English,,0,0,0,,It's entrepreneurs who effectively take new ideas, turn them into new businesses
+Dialogue: 0,0:02:17.78,0:02:20.25,Chinese,,0,0,0,,并把它们变成全球现象。
+Dialogue: 0,0:02:17.78,0:02:20.25,English,,0,0,0,, and turn them into global phenomenons
+Dialogue: 0,0:02:20.62,0:02:24.08,Chinese,,0,0,0,,我相信，这个国家将会产生出
+Dialogue: 0,0:02:20.62,0:02:24.08,English,,0,0,0,,And I'm convinced that this is a country which is gonna produce
+Dialogue: 0,0:02:24.21,0:02:27.78,Chinese,,0,0,0,,许多下一代的伟大企业家
 Dialogue: 0,0:02:24.21,0:02:27.78,English,,0,0,0,,Many of the next generation of great entrepreneurs
+Dialogue: 0,0:02:27.78,0:02:31.80,Chinese,,0,0,0,,所以，我觉得这会是一个有趣的话题
 Dialogue: 0,0:02:27.78,0:02:31.80,English,,0,0,0,,So I feel that that would be an interesting thing to talk about
+Dialogue: 0,0:02:31.80,0:02:37.99,Chinese,,0,0,0,,如果我要求你列出一些在过去10年中创办的伟大企业
 Dialogue: 0,0:02:31.80,0:02:37.99,English,,0,0,0,,If I ask you to list some great businesses that have been started in the last
+Dialogue: 0,0:02:38.42,0:02:42.73,Chinese,,0,0,0,,哪些公司，哪些名字是你会想到的？
 Dialogue: 0,0:02:38.42,0:02:42.73,English,,0,0,0,,In the last 10 years. What companies, what names would you throw out
+Dialogue: 0,0:02:42.84,0:02:46.68,Chinese,,0,0,0,,有人想发言吗？
 Dialogue: 0,0:02:42.84,0:02:46.68,English,,0,0,0,,Who wants to suggest?
+Dialogue: 0,0:02:47.65,0:02:51.04,Chinese,,0,0,0,,这是个不错的选择。谷歌是一家在过去10年中创办的伟大企业。
 Dialogue: 0,0:02:47.65,0:02:51.04,English,,0,0,0,,It's a great choice. Google is a great business started in the last 10 years.
+Dialogue: 0,0:02:51.14,0:02:55.51,Chinese,,0,0,0,,苹果公司。苹果是一个伟大的企业。
 Dialogue: 0,0:02:51.14,0:02:55.51,English,,0,0,0,,Apple. Apple is a great business.
+Dialogue: 0,0:02:55.51,0:03:01.75,Chinese,,0,0,0,,他们在过去10年里发生了根本性的变化。他们已经从根本上改变了人们对苹果的看法
 Dialogue: 0,0:02:55.51,0:03:01.75,English,,0,0,0,,They've radically changed in the last 10 years. They've radically changed the way people think about Apple
+Dialogue: 0,0:03:01.75,0:03:06.33,Chinese,,0,0,0,,10年前，也许每个人都认为苹果已经完了，而今天他们成为了所有人的宠儿
 Dialogue: 0,0:03:01.75,0:03:06.33,English,,0,0,0,,10 years ago maybe everybody thought Apple was dying and today they're the darling
+Dialogue: 0,0:03:06.33,0:03:11.47,Chinese,,0,0,0,,他们正在引领潮流。这是一个非常有趣的例子
 Dialogue: 0,0:03:06.33,0:03:11.47,English,,0,0,0,,They're setting the trend. It was a very interesting example
+Dialogue: 0,0:03:11.48,0:03:13.42,Chinese,,0,0,0,,还有哪些你欣赏的公司？
 Dialogue: 0,0:03:11.48,0:03:13.42,English,,0,0,0,,What are the other companies you admire?
+Dialogue: 0,0:03:13.42,0:03:20.40,Chinese,,0,0,0,,(听不清)另一家伟大的公司。但它不是一个新的公司，它没有真正改变事情
 Dialogue: 0,0:03:13.42,0:03:20.40,English,,0,0,0,,(inaudible) Another great company. But it's not a new company it's not really changing things
+Dialogue: 0,0:03:26.71,0:03:29.82,Chinese,,0,0,0,,其他的呢？还有哪些公司是你们欣赏的？
 Dialogue: 0,0:03:26.71,0:03:29.82,English,,0,0,0,,Other brands, tell me about the company you admire
+Dialogue: 0,0:03:29.82,0:03:33.74,Chinese,,0,0,0,,NetApp。我没听说过它
 Dialogue: 0,0:03:29.82,0:03:33.74,English,,0,0,0,,NetApp. I don't know that
-Dialogue: 0,0:03:33.97,0:03:39.47,English,,0,0,0,,NetApp. OK That's very interesting
+Dialogue: 0,0:03:33.97,0:03:39.47,Chinese,,0,0,0,,Network Appliance。NetApp。OK 这很有意思
+Dialogue: 0,0:03:33.97,0:03:39.47,English,,0,0,0,,Network Appliance. NetApp. OK That's very interesting
+Dialogue: 0,0:03:39.65,0:03:48.65,Chinese,,0,0,0,,事实上，近乎定义了我们这个时代的公司，是像Ebay和Google这样的。
 Dialogue: 0,0:03:39.65,0:03:48.65,English,,0,0,0,,The fact that the businesses that are kinda defining our age are companies like ebay and Google
+Dialogue: 0,0:03:48.77,0:03:51.37,Chinese,,0,0,0,,中国版的Ebay是什么？
 Dialogue: 0,0:03:48.77,0:03:51.37,English,,0,0,0,,What's the Chinese equivalent of ebay?
+Dialogue: 0,0:03:51.42,0:03:57.48,Chinese,,0,0,0,,（它们拥有）全新的技术带来的优势，而这些技术在10年前根本就不存在。
 Dialogue: 0,0:03:51.42,0:03:57.48,English,,0,0,0,,Advantage of completely new technologies that didn't really exist 10 years ago.
-Dialogue: 0,0:03:57.48,0:03:59.97,English,,0,0,0,,They are all companies that effectively
-Dialogue: 0,0:03:59.97,0:04:07.62,English,,0,0,0,,We all have them as brand names today and we accept them today as great companies. But 10 years ago you couldn't even dream that a company like that could exist.
+Dialogue: 0,0:03:57.48,0:03:59.15,Chinese,,0,0,0,,它们都是
+Dialogue: 0,0:03:57.48,0:03:59.15,English,,0,0,0,,They are all companies that effectively
+Dialogue: 0,0:03:59.15,0:04:04.12,Chinese,,0,0,0,,它们今天都大名鼎鼎，作为伟大的公司被我们所接受。
+Dialogue: 0,0:03:59.15,0:04:04.12,English,,0,0,0,,We all have them as brand names today and we accept them today as great companies.
+Dialogue: 0,0:04:04.12,0:04:07.62,Chinese,,0,0,0,,但在10年前，你甚至无法想象这样的公司能够存在。
+Dialogue: 0,0:04:04.12,0:04:07.62,English,,0,0,0,,But 10 years ago you couldn't even dream that a company like that could exist.
+Dialogue: 0,0:04:08.15,0:04:13.25,Chinese,,0,0,0,,如果你想象一下过去10年中在科技领域所创造的财富
 Dialogue: 0,0:04:08.15,0:04:13.25,English,,0,0,0,,If you look at the wealth that's been created in technology over the last 10 years
+Dialogue: 0,0:04:13.31,0:04:19.23,Chinese,,0,0,0,,它们大多数都是利用在1995年还不存在的技术创造的
 Dialogue: 0,0:04:13.31,0:04:19.23,English,,0,0,0,,It's largely being created using technology that just didn't exist in 1995
+Dialogue: 0,0:04:19.23,0:04:25.20,Chinese,,0,0,0,,并围绕着1995年还不存在的社群和客户群体而建立。
 Dialogue: 0,0:04:19.23,0:04:25.20,English,,0,0,0,,and built around communities and customer bases just didn't exist in 1995
+Dialogue: 0,0:04:25.20,0:04:31.77,Chinese,,0,0,0,,这突出了我认为也许是伟大的企业家最重要的特征
 Dialogue: 0,0:04:25.20,0:04:31.77,English,,0,0,0,,That highlights what I think perhaps is the most important characteristics of great entrepreneurs
+Dialogue: 0,0:04:31.77,0:04:36.48,Chinese,,0,0,0,,他/她们了解变化。他/她们了解这个世界正在如何变化
 Dialogue: 0,0:04:31.77,0:04:36.48,English,,0,0,0,,is that they understand change. They understand how the world is changing
+Dialogue: 0,0:04:36.71,0:04:39.94,Chinese,,0,0,0,,而且他/她们非常希望自己能够推动其中一部分的变化
 Dialogue: 0,0:04:36.71,0:04:39.94,English,,0,0,0,,And they very much want to be part of that change
+Dialogue: 0,0:04:41.52,0:04:47.71,Chinese,,0,0,0,,我认为，如果你作为一个企业家，如果你想成为一个伟大的企业家
 Dialogue: 0,0:04:41.52,0:04:47.71,English,,0,0,0,,I think if you as an entrepreneur if you want to be a great entrepreneur
+Dialogue: 0,0:04:47.82,0:04:49.83,Chinese,,0,0,0,,那么你就必须了解
 Dialogue: 0,0:04:47.82,0:04:49.83,English,,0,0,0,,Then you have to understand
+Dialogue: 0,0:04:49.85,0:04:52.14,Chinese,,0,0,0,,世界是如何变化的，你必须了解
 Dialogue: 0,0:04:49.85,0:04:52.14,English,,0,0,0,,How the world is changing, you have to understand how
+Dialogue: 0,0:04:52.18,0:04:55.23,Chinese,,0,0,0,,世界上正在发生的变化将如何影响你的国家
 Dialogue: 0,0:04:52.18,0:04:55.23,English,,0,0,0,,Changes that are going on in the world are going to affect your country
+Dialogue: 0,0:04:55.23,0:05:02.45,Chinese,,0,0,0,,这个国家就经历了巨大的变化。如果你回想起10年前，你觉得这里都发生了哪些变化？
 Dialogue: 0,0:04:55.23,0:05:02.45,English,,0,0,0,,This is a country of great change. If you look back 10 years, how would you say things have changed here?
+Dialogue: 0,0:05:02.45,0:05:10.30,Chinese,,0,0,0,,你认为今天正在进行的变化的关键因素有哪些？互联网
 Dialogue: 0,0:05:02.45,0:05:10.30,English,,0,0,0,,What would you say are the key element of change that's going on today? The Internet
-Dialogue: 0,0:05:10.30,0:05:18.70,English,,0,0,0,,You feel very connected to the outside world, you feel like you can follow the news that you can follow technology developments firmly?
+Dialogue: 0,0:05:10.30,0:05:14.86,Chinese,,0,0,0,,你是否认为自己与外部世界有非常紧密的联系，你是否觉得
+Dialogue: 0,0:05:10.30,0:05:14.86,English,,0,0,0,,You feel very connected to the outside world, you feel like
+Dialogue: 0,0:05:14.86,0:05:18.70,Chinese,,0,0,0,,你可以关注新闻，你可以了解全球的技术发展？
+Dialogue: 0,0:05:14.86,0:05:18.70,English,,0,0,0,,you can follow the news, that you can follow technology developments globally?
+Dialogue: 0,0:05:21.86,0:05:27.01,Chinese,,0,0,0,,我认为你可以。我认为你可以坐在这里的大学里，并且同时清楚地知道化学领域发生了什么
 Dialogue: 0,0:05:21.86,0:05:27.01,English,,0,0,0,,I think you can. I think you can sit here in university and you can know exactly what's going on in chemistry
+Dialogue: 0,0:05:27.01,0:05:31.85,Chinese,,0,0,0,,你可以确切地知道物理学中发生了什么，你可以确切地知道计算机科学和商业中又发生了什么。
 Dialogue: 0,0:05:27.01,0:05:31.85,English,,0,0,0,,you can exactly what's going on in physics, you can learn exactly what's going on in computer science, in business
+Dialogue: 0,0:05:31.86,0:05:35.58,Chinese,,0,0,0,,这很棒。我们是能实现这些的第一代人。
 Dialogue: 0,0:05:31.86,0:05:35.58,English,,0,0,0,,That's amazing. We're the first generation to be able to do that
-Dialogue: 0,0:05:35.58,0:05:41.85,English,,0,0,0,,Our parents' generation, it took a very long time before an idea from one part of the world reached somewhere else in the world.
+Dialogue: 0,0:05:35.58,0:05:39.72,Chinese,,0,0,0,,对于我们父母那一代人，世界上一个地方的想法
+Dialogue: 0,0:05:35.58,0:05:39.72,English,,0,0,0,,Our parents' generation, it took a very long time before an idea
+Dialogue: 0,0:05:39.72,0:05:41.85,Chinese,,0,0,0,,要经历很长时间才能传到世界上的另一个地方。
+Dialogue: 0,0:05:39.72,0:05:41.85,English,,0,0,0,,from one part of the world reached somewhere else in the world.
+Dialogue: 0,0:05:41.85,0:05:48.51,Chinese,,0,0,0,,所以这是最大的变化。我预测，中国在未来的一代……
 Dialogue: 0,0:05:41.85,0:05:48.51,English,,0,0,0,,So this is the biggest change. I would predict, that over the next generation, china is going to be
+Dialogue: 0,0:05:48.51,0:05:54.11,Chinese,,0,0,0,,你们创业时的世界将变得和非洲完全一样
 Dialogue: 0,0:05:48.51,0:05:54.11,English,,0,0,0,,The world in which you do business is going to become exactly like Africa
-Dialogue: 0,0:05:54.11,0:05:58.88,English,,0,0,0,,Exactly like Europe exactly like America in the sense that you will be able to to to to to participate
+Dialogue: 0,0:05:54.11,0:05:58.88,Chinese,,0,0,0,,与欧洲，与美国完全一样。换言之，你将能够
+Dialogue: 0,0:05:54.11,0:05:58.88,English,,0,0,0,,exactly like Europe, exactly like America, in the sense that you will be able to to to to to participate
+Dialogue: 0,0:05:58.88,0:06:06.82,Chinese,,0,0,0,,作为一等公民随时参与到你们想要参与的任何事业中
 Dialogue: 0,0:05:58.88,0:06:06.82,English,,0,0,0,,as first class citizens instantly in whatever busines sit is that you choose to participate in.
+Dialogue: 0,0:06:06.90,0:06:08.06,Chinese,,0,0,0,,好的
 Dialogue: 0,0:06:06.90,0:06:08.06,English,,0,0,0,,Okay
-Dialogue: 0,0:06:08.16,0:06:16.56,English,,0,0,0,,So what are the characteristics of great entrepreneurs? Does anybody want to suggest, what does it take to be a great entrepreneur?
+Dialogue: 0,0:06:08.16,0:06:11.92,Chinese,,0,0,0,,那么，伟大的企业家都具有什么特点？
+Dialogue: 0,0:06:08.16,0:06:11.92,English,,0,0,0,,So what are the characteristics of great entrepreneurs?
+Dialogue: 0,0:06:11.92,0:06:16.56,Chinese,,0,0,0,,你们认为，成为一个伟大的企业家需要什么？
+Dialogue: 0,0:06:11.92,0:06:16.56,English,,0,0,0,,Does anybody want to suggest, what does it take to be a great entrepreneur?
+Dialogue: 0,0:06:16.61,0:06:26.60,Chinese,,0,0,0,,激情。我想说这是最重要的特点。如果你想做出点什么，如果你想创立一些东西
 Dialogue: 0,0:06:16.61,0:06:26.60,English,,0,0,0,,Passion. I would say that's the number one characteristic. If you want to create well, if you want to build something
+Dialogue: 0,0:06:26.61,0:06:31.54,Chinese,,0,0,0,,你就必须全身心地投入，完全地将自己投入其中。
 Dialogue: 0,0:06:26.61,0:06:31.54,English,,0,0,0,,you are going to have to devote yourself to it, you have to devote yourself to it completely.
+Dialogue: 0,0:06:31.54,0:06:36.61,Chinese,,0,0,0,,而这实际上是相当困难的。有很多不同的诱惑。（比如）你能很容易找到一份高薪的工作。
 Dialogue: 0,0:06:31.54,0:06:36.61,English,,0,0,0,,And that's actually quite difficult. Different distractions. It is easy to get a job that pays you good salaries.
-Dialogue: 0,0:06:36.61,0:06:45.97,English,,0,0,0,,It's easy to to live an average life today. But if you want to live an exceptional life, you have to be totally totally committed to an idea.
-Dialogue: 0,0:06:45.97,0:06:49.89,English,,0,0,0,,And it's much easier to be committed to that idea, if you actually really fascinated by it.
-Dialogue: 0,0:06:50.68,0:06:55.72,English,,0,0,0,,So the number one thing I will tell you is, if you want to create wealth, right, if you want to become very wealthy, if you want to be.
-Dialogue: 0,0:06:56.08,0:07:01.36,English,,0,0,0,,Like the founders of Google, or the founder of ebay or the founder of NetApp, or the founder of SalesForce.com.
-Dialogue: 0,0:07:01.96,0:07:09.88,English,,0,0,0,,You're going to have an idea that you find so fascinating that you're willing to devote yourself to i,t to the exclusion of all of the other easy opportunities.
+Dialogue: 0,0:06:36.61,0:06:42.01,Chinese,,0,0,0,,在今天，想要过上普通人的生活是很容易的。但是，如果你想过更好的生活
+Dialogue: 0,0:06:36.61,0:06:42.01,English,,0,0,0,,It's easy to to live an average life today. But if you want to live an exceptional life
+Dialogue: 0,0:06:42.01,0:06:45.97,Chinese,,0,0,0,,你就必须完全地致力于一个想法。
+Dialogue: 0,0:06:42.01,0:06:45.97,English,,0,0,0,,you have to be totally totally committed to an idea.
+Dialogue: 0,0:06:45.97,0:06:50.68,Chinese,,0,0,0,,如果这是一个令你真正着迷的想法，你就能更轻松地致力于其中。
+Dialogue: 0,0:06:45.97,0:06:50.68,English,,0,0,0,,And it's much easier to be committed to that idea, if you actually really fascinated by it.
+Dialogue: 0,0:06:50.68,0:06:53.59,Chinese,,0,0,0,,所以我要告诉你的第一件事是，如果你想创造财富
+Dialogue: 0,0:06:50.68,0:06:53.59,English,,0,0,0,,So the number one thing I will tell you is, if you want to create wealth
+Dialogue: 0,0:06:53.59,0:06:55.72,Chinese,,0,0,0,,如果你想成为非常富有的人，如果你想成为
+Dialogue: 0,0:06:53.59,0:06:55.72,English,,0,0,0,,if you want to become very wealthy, if you want to be
+Dialogue: 0,0:06:56.08,0:07:01.36,Chinese,,0,0,0,,谷歌的创始人，或Ebay，NetApp，或者SalesForce.com的创始人那样的人，
+Dialogue: 0,0:06:56.08,0:07:01.36,English,,0,0,0,,like the founders of Google, or the founder of ebay or the founder of NetApp, or the founder of SalesForce.com,
+Dialogue: 0,0:07:01.96,0:07:05.80,Chinese,,0,0,0,,你需要拥有一个如此令你着迷的想法，以至于
+Dialogue: 0,0:07:01.96,0:07:05.80,English,,0,0,0,,You're going to have an idea that you find so fascinating that you're willing to
+Dialogue: 0,0:07:05.80,0:07:11.72,Chinese,,0,0,0,,你愿意全身心地投入到这个想法中去，而不顾其他所有你面前的容易的机会
+Dialogue: 0,0:07:05.80,0:07:11.72,English,,0,0,0,,devote yourself to it to the exclusion of all of the other easy opportunities
+Dialogue: 0,0:07:11.72,0:07:17.72,Chinese,,0,0,0,,不是吗？我遇到过很多赚了几十上百亿的企业家们
 Dialogue: 0,0:07:11.72,0:07:17.72,English,,0,0,0,,that you face, right? I meet a lot of entrepreneurs, people who make billions and billions and billions of dollars.
+Dialogue: 0,0:07:18.37,0:07:24.49,Chinese,,0,0,0,,而他们中没有任何一个人对自己的工作不具有全部的热情
 Dialogue: 0,0:07:18.37,0:07:24.49,English,,0,0,0,,And I don't know any one of them who's not totally passionate about what they do
+Dialogue: 0,0:07:26.06,0:07:28.26,Chinese,,0,0,0,,而如果你，
 Dialogue: 0,0:07:26.06,0:07:28.26,English,,0,0,0,,and if you, um.
+Dialogue: 0,0:07:31.25,0:07:37.01,Chinese,,0,0,0,,如果你允许自己随大流变得平庸，如果你允许自己
 Dialogue: 0,0:07:31.25,0:07:37.01,English,,0,0,0,,If you allow yourself effectively to be drawn in to the average flow, if you allow yourself to be,
+Dialogue: 0,0:07:37.01,0:07:42.74,Chinese,,0,0,0,,被大公司定义来定义自己想要实现的目标
 Dialogue: 0,0:07:37.01,0:07:42.74,English,,0,0,0,,to define your objectives in terms of what the large company is telling you to do
+Dialogue: 0,0:07:42.74,0:07:46.58,Chinese,,0,0,0,,那么你就很难对它充满激情；而如果你要去推动自己的变革
 Dialogue: 0,0:07:42.74,0:07:46.58,English,,0,0,0,,then it's hard to be so passionate about it, whereas if you say you are going to go out and drive that change
-Dialogue: 0,0:07:47.82,0:07:50.31,English,,0,0,0,,Then it's much easier to be really really passionate about.
+Dialogue: 0,0:07:46.58,0:07:50.31,Chinese,,0,0,0,,那么你将更容易地对这个目标充满激情。
+Dialogue: 0,0:07:46.58,0:07:50.31,English,,0,0,0,,Then it's much easier to be really really passionate about.
+Dialogue: 0,0:07:50.31,0:07:53.31,Chinese,,0,0,0,,你们认为企业家还有什么特点？
 Dialogue: 0,0:07:50.31,0:07:53.31,English,,0,0,0,,What else can you say of entrepreneurs?
+Dialogue: 0,0:07:53.31,0:07:57.39,Chinese,,0,0,0,,创新。正是如此。创新都有关于变化
 Dialogue: 0,0:07:53.31,0:07:57.39,English,,0,0,0,,Innovation. Exactly. Innovation is all about change.
+Dialogue: 0,0:07:58.74,0:08:01.02,Chinese,,0,0,0,,有两种成功的方式
 Dialogue: 0,0:07:58.74,0:08:01.02,English,,0,0,0,,There are two ways to be successful
-Dialogue: 0,0:08:01.97,0:08:09.21,English,,0,0,0,,Two ways to be successful, and I suppose the most successful people have a bit of both of this, but one way to be successful is to be extremely efficient.
-Dialogue: 0,0:08:09.78,0:08:14.38,English,,0,0,0,,Right to take what you've been asked to do and to do it very, very efficiently.
-Dialogue: 0,0:08:14.78,0:08:19.50,English,,0,0,0,,Or if you're running a business to make sure that that business is very, very efficient, right? So say you're running an airline.
-Dialogue: 0,0:08:20.72,0:08:27.64,English,,0,0,0,,But one way you can succeed at this airline is making sure that you run a more efficient airline than all of your other competitors, right?
+Dialogue: 0,0:08:01.97,0:08:05.86,Chinese,,0,0,0,,两种成功的方式，而我想最成功的人都或多或少两者兼具
+Dialogue: 0,0:08:01.97,0:08:05.86,English,,0,0,0,,Two ways to be successful, and I suppose the most successful people have a bit of both of this
+Dialogue: 0,0:08:05.86,0:08:09.21,Chinese,,0,0,0,,但成功的第一种方式是极度的高效
+Dialogue: 0,0:08:05.86,0:08:09.21,English,,0,0,0,,but one way to be successful is to be extremely efficient.
+Dialogue: 0,0:08:09.78,0:08:14.38,Chinese,,0,0,0,,不是吗？直面你要做的事情，并且非常非常高效地完成它们
+Dialogue: 0,0:08:09.78,0:08:14.38,English,,0,0,0,,Right? To take what you've been asked to do and to do it very, very efficiently.
+Dialogue: 0,0:08:14.78,0:08:18.54,Chinese,,0,0,0,,如果你正在经营一家企业，你需要确保该企业是非常高效的，不是吗？
+Dialogue: 0,0:08:14.78,0:08:18.54,English,,0,0,0,,Or if you're running a business to make sure that that business is very, very efficient, right?
+Dialogue: 0,0:08:18.54,0:08:20.72,Chinese,,0,0,0,,假设你正在经营一家航空公司。
+Dialogue: 0,0:08:18.54,0:08:20.72,English,,0,0,0,,So say you're running an airline.
+Dialogue: 0,0:08:20.72,0:08:24.58,Chinese,,0,0,0,,你能取得成功的第一个方法是，确保你经营的航空公司
+Dialogue: 0,0:08:20.72,0:08:24.58,English,,0,0,0,,But one way you can succeed at this airline is making sure that you run a more
+Dialogue: 0,0:08:24.58,0:08:27.64,Chinese,,0,0,0,,比你所有的其他竞争对手都更高效，对吧
+Dialogue: 0,0:08:24.58,0:08:27.64,English,,0,0,0,,efficient airline than all of your other competitors, right?
+Dialogue: 0,0:08:29.43,0:08:33.71,Chinese,,0,0,0,,所以这有点像，你们在中国用Avis吗？那个租车公司，Avis？
 Dialogue: 0,0:08:29.43,0:08:33.71,English,,0,0,0,,So that's a little bit like, do you have Avis in this country? The rental car company, Avis?
+Dialogue: 0,0:08:35.57,0:08:38.69,Chinese,,0,0,0,,好吧，国际上有一家公司叫Avis，它的口号是，我们更努力。
 Dialogue: 0,0:08:35.57,0:08:38.69,English,,0,0,0,,OK internationally there's a company called Avis, and its slogan is, we try harder.
-Dialogue: 0,0:08:39.61,0:08:45.05,English,,0,0,0,,Basically, what they're saying is, we do exactly the same thing as everybody else. We don't do anything differently, but we try harder, right?
-Dialogue: 0,0:08:45.90,0:08:54.86,English,,0,0,0,,Now most of the entrepreneurs that I meet, they don't fall into that category. They're not necessarily extremely efficient managers, they're not necessarily extremely.
-Dialogue: 0,0:08:56.27,0:08:59.67,English,,0,0,0,,Operationly strong, but what they do is they innovate. They change things.
-Dialogue: 0,0:09:01.48,0:09:10.68,English,,0,0,0,,Possibly the greatest lesson, I think that I've learned over the years is that most of the changes that are happening are changes that are happening in society, despite what you do.
+Dialogue: 0,0:08:39.61,0:08:42.27,Chinese,,0,0,0,,基本上，他们的意思是，我们做的事情和其他人一模一样。
+Dialogue: 0,0:08:39.61,0:08:42.27,English,,0,0,0,,Basically, what they're saying is, we do exactly the same thing as everybody else.
+Dialogue: 0,0:08:42.27,0:08:45.05,Chinese,,0,0,0,,我们不做任何不同的事情，但我们更努力，对吗？
+Dialogue: 0,0:08:42.27,0:08:45.05,English,,0,0,0,,We don't do anything differently, but we try harder, right?
+Dialogue: 0,0:08:45.90,0:08:50.14,Chinese,,0,0,0,,现在我遇到的大多数企业家，他们都不属于这个类别。
+Dialogue: 0,0:08:45.90,0:08:50.14,English,,0,0,0,,Now most of the entrepreneurs that I meet, they don't fall into that category.
+Dialogue: 0,0:08:50.14,0:08:54.86,Chinese,,0,0,0,,他们不一定是最高效的管理者，或者说不一定
+Dialogue: 0,0:08:50.14,0:08:54.86,English,,0,0,0,,They're not necessarily extremely efficient managers, they're not necessarily extremely.
+Dialogue: 0,0:08:54.86,0:08:59.67,Chinese,,0,0,0,,具有最强的业务能力，但他们所做的是，他们创新。他们改变事情。
+Dialogue: 0,0:08:54.86,0:08:59.67,English,,0,0,0,,Operationly strong, but what they do is they innovate. They change things.
+Dialogue: 0,0:09:01.48,0:09:06.19,Chinese,,0,0,0,,我认为我这么多年来学到的可能是最大的教训，就是
+Dialogue: 0,0:09:01.48,0:09:06.19,English,,0,0,0,,Possibly the greatest lesson, I think that I've learned over the years is
+Dialogue: 0,0:09:06.19,0:09:11.09,Chinese,,0,0,0,,不管你做什么，大多数正在发生的变化都发生在社会中。
+Dialogue: 0,0:09:06.19,0:09:11.09,English,,0,0,0,,that most of the changes that are happening are changes that are happening in society, despite what you do.
+Dialogue: 0,0:09:11.09,0:09:12.61,Chinese,,0,0,0,,因为它是一个如此巨大的全球经济。
 Dialogue: 0,0:09:11.09,0:09:12.61,English,,0,0,0,,Because it's such a huge global economy.
-Dialogue: 0,0:09:14.10,0:09:20.42,English,,0,0,0,,While you can change things and you can innovate, usually what's happening is that there is an underlying change going on in society.
+Dialogue: 0,0:09:14.10,0:09:16.53,Chinese,,0,0,0,,当然你仍然可以做出改变，可以创新
+Dialogue: 0,0:09:14.10,0:09:16.53,English,,0,0,0,,usually what's happening is that there is an underlying change going on in society.
+Dialogue: 0,0:09:16.53,0:09:20.42,Chinese,,0,0,0,,但通常的情况是，社会正在潜移默化地改变。
+Dialogue: 0,0:09:16.53,0:09:20.42,English,,0,0,0,,usually what's happening is that there is an underlying change going on in society.
+Dialogue: 0,0:09:21.20,0:09:26.00,Chinese,,0,0,0,,因此，如果你了解这种潜在的变化，你清楚未来会如何变化
 Dialogue: 0,0:09:21.20,0:09:26.00,English,,0,0,0,,So if you understand that underlying change and you understand how the position is so forward.
+Dialogue: 0,0:09:28.10,0:09:31.26,Chinese,,0,0,0,,那么你就可以非常有效地驾驭这种变化的浪潮。
 Dialogue: 0,0:09:28.10,0:09:31.26,English,,0,0,0,,Then you can effectively ride the wave of that change very efficiently.
-Dialogue: 0,0:09:33.04,0:09:37.84,English,,0,0,0,,To to build a new kind of business. So while people sometimes say that, you know, the entrepreneur is the innovator.
+Dialogue: 0,0:09:33.04,0:09:34.89,Chinese,,0,0,0,,来建立一种新的业务。
+Dialogue: 0,0:09:33.04,0:09:34.89,English,,0,0,0,,To to build a new kind of business.
+Dialogue: 0,0:09:34.89,0:09:37.84,Chinese,,0,0,0,,因此，虽然人们有时说企业家是创新者
+Dialogue: 0,0:09:34.89,0:09:37.84,English,,0,0,0,,So while people sometimes say that, you know, the entrepreneur is the innovator.
+Dialogue: 0,0:09:39.04,0:09:43.08,Chinese,,0,0,0,,但多数时候，企业家不过是在理解社会上正在发生的变化。
 Dialogue: 0,0:09:39.04,0:09:43.08,English,,0,0,0,,Usually what's happening is the entrepreneur is just understanding change that's going on in society.
+Dialogue: 0,0:09:44.51,0:09:49.19,Chinese,,0,0,0,,因此，加入你在其他人之前就了解互联网是如何工作的，那么你就可以预测
 Dialogue: 0,0:09:44.51,0:09:49.19,English,,0,0,0,,So if you understand how the Internet works, for example, before everybody else does, then you can predict.
-Dialogue: 0,0:09:50.43,0:09:54.99,English,,0,0,0,,That that will create demand for new kinds of services. And you can position yourself.
+Dialogue: 0,0:09:50.43,0:09:54.99,Chinese,,0,0,0,,互联网将会创造对新类型服务的需求。这样你就可以提前适应这个变化
+Dialogue: 0,0:09:50.43,0:09:54.99,English,,0,0,0,,That that will create demand for new kinds of services. And you can position yourself
+Dialogue: 0,0:09:55.84,0:10:01.40,Chinese,,0,0,0,,来在其他人之前提供这些服务。所以说你实际上并没有“创造”互联网。
 Dialogue: 0,0:09:55.84,0:10:01.40,English,,0,0,0,,To offer those services before everybody else does, so it's not as though you're actually creating the Internet.
+Dialogue: 0,0:10:02.02,0:10:04.91,Chinese,,0,0,0,,这个目标对于任何一个人或一个公司来说都太大了。
 Dialogue: 0,0:10:02.02,0:10:04.91,English,,0,0,0,,That's too big for any one person or one company to do
-Dialogue: 0,0:10:04.91,0:10:12.83,English,,0,0,0,,But if you understand how the Internet is going to change your society and the business world around you, then you can position yourself to be the more efficient operator.
+Dialogue: 0,0:10:04.91,0:10:10.15,Chinese,,0,0,0,,但是，如果你了解互联网将如何改变你的社会和你身边的商业世界
+Dialogue: 0,0:10:04.91,0:10:10.15,English,,0,0,0,,But if you understand how the Internet is going to change your society and the business world around you
+Dialogue: 0,0:10:10.15,0:10:13.72,Chinese,,0,0,0,,那么你就可以适应这个变化，进而成为更有效的经营者。
+Dialogue: 0,0:10:10.15,0:10:13.72,English,,0,0,0,,then you can position yourself to be the more efficient operator.
+Dialogue: 0,0:10:13.72,0:10:21.27,Chinese,,0,0,0,,我认为这是一件更有趣的事情，对吧，驾驭着这些改变社会的浪潮。
 Dialogue: 0,0:10:13.72,0:10:21.27,English,,0,0,0,,For me, that's a lot more fun, right, to ride these waves of change and through society.
-Dialogue: 0,0:10:21.27,0:10:29.23,English,,0,0,0,,So the big waves of change that we've seen in my lifetime have been first starting in the early 80s, a wave of change towards globalization.
-Dialogue: 0,0:10:30.08,0:10:30.80,English,,0,0,0,,In 1980
-Dialogue: 0,0:10:32.18,0:10:39.82,English,,0,0,0,,If you had a million pounds in England, you weren't allowed to take that million pounds anywhere else to go and invest and create business.
-Dialogue: 0,0:10:39.82,0:10:48.48,English,,0,0,0,,It's almost crazy today, because Shanghai is a global capital, you have hundreds of billions of pounds coming through Shanghai every week, right?
+Dialogue: 0,0:10:21.27,0:10:27.07,Chinese,,0,0,0,,在我的一生中，我们所看到的大变革的浪潮首先是在80年代初开始的
+Dialogue: 0,0:10:21.27,0:10:27.07,English,,0,0,0,,So the big waves of change that we've seen in my lifetime have been first starting in the early 80s
+Dialogue: 0,0:10:27.07,0:10:30.08,Chinese,,0,0,0,,全球化的变革浪潮
+Dialogue: 0,0:10:27.07,0:10:30.08,English,,0,0,0,,a wave of change towards globalization.
+Dialogue: 0,0:10:30.08,0:10:35.85,Chinese,,0,0,0,,在1980年，如果你在英国有一百万英镑，你没法
+Dialogue: 0,0:10:30.08,0:10:35.85,English,,0,0,0,,In 1980, if you had a million pounds in England, you weren't allowed to
+Dialogue: 0,0:10:35.85,0:10:39.82,Chinese,,0,0,0,,把这一百万英镑带到其他地方去投资和经商。
+Dialogue: 0,0:10:35.85,0:10:39.82,English,,0,0,0,,take that million pounds anywhere else to go and invest and create business.
+Dialogue: 0,0:10:39.82,0:10:42.82,Chinese,,0,0,0,,这在今天几乎是难以想象的，因为上海是一个全球都市
+Dialogue: 0,0:10:39.82,0:10:42.82,English,,0,0,0,,It's almost crazy today, because Shanghai is a global capital, you have
+Dialogue: 0,0:10:42.82,0:10:48.48,Chinese,,0,0,0,,每周有数千亿英镑通过上海，对吧
+Dialogue: 0,0:10:42.82,0:10:48.48,English,,0,0,0,,you have hundreds of billions of pounds coming through Shanghai every week, right?
+Dialogue: 0,0:10:48.48,0:10:56.16,Chinese,,0,0,0,,但在27年前，这个行业并不存在，因为当时有非常严格的法规
 Dialogue: 0,0:10:48.48,0:10:56.16,English,,0,0,0,,But 27 years ago that didn't exist, that industry didn't exist because there were very strict rules about
-Dialogue: 0,0:10:56.16,0:11:02.72,English,,0,0,0,,Not investing outside of your own country. And in the last generation, basically all of those rules have have been swept away, so
-Dialogue: 0,0:11:03.27,0:11:10.87,English,,0,0,0,,some entrepreneurs made huge fortunes because they could see that globalization, or the forces of globalization, would mean that
+Dialogue: 0,0:10:56.16,0:10:59.17,Chinese,,0,0,0,,禁止你在本国之外投资。而在上一代
+Dialogue: 0,0:10:56.16,0:10:59.17,English,,0,0,0,,not investing outside of your own country. And in the last generation
+Dialogue: 0,0:10:59.17,0:11:02.72,Chinese,,0,0,0,,几乎所有这些法规都被废除了，于是
+Dialogue: 0,0:10:59.17,0:11:02.72,English,,0,0,0,,basically all of those rules have have been swept away, so
+Dialogue: 0,0:11:03.27,0:11:05.98,Chinese,,0,0,0,,一些企业家发了大财，因为他/她们预见到了
+Dialogue: 0,0:11:03.27,0:11:05.98,English,,0,0,0,,some entrepreneurs made huge fortunes because they foresee
+Dialogue: 0,0:11:05.98,0:11:10.87,Chinese,,0,0,0,,全球化，或全球化的力量，将意味着
+Dialogue: 0,0:11:05.98,0:11:10.87,English,,0,0,0,,that globalization, or the forces of globalization, would mean that
+Dialogue: 0,0:11:12.33,0:11:14.97,Chinese,,0,0,0,,世界上任何地方的任何生产能力都应当
 Dialogue: 0,0:11:12.33,0:11:14.97,English,,0,0,0,,Any particular kind of capacity anywhere in the world should
-Dialogue: 0,0:11:15.54,0:11:25.58,English,,0,0,0,,ltimately be priced the same way that if you could manufacture something in the UK for one price, to manufacture something in India for half that price, that all of that manufacturing capacity move.
+Dialogue: 0,0:11:15.54,0:11:20.19,Chinese,,0,0,0,,以同样的方式定价。如果你能以一个价格在英国生产一样商品，而在印度制造一些东西的价格只需要它的一半
+Dialogue: 0,0:11:15.54,0:11:20.19,English,,0,0,0,,ultimately be priced the same way that if you could manufacture something in the UK for one price
+Dialogue: 0,0:11:20.19,0:11:25.58,Chinese,,0,0,0,,那么所有生产它的产能都会转移（去到印度）
+Dialogue: 0,0:11:20.19,0:11:25.58,English,,0,0,0,,to manufacture something in India for half that price, that all of that manufacturing capacity move.
+Dialogue: 0,0:11:25.58,0:11:27.86,Chinese,,0,0,0,,因此，这是社会的一个巨大变化。
 Dialogue: 0,0:11:25.58,0:11:27.86,English,,0,0,0,,So that's one huge change that went through society.
+Dialogue: 0,0:11:28.93,0:11:33.45,Chinese,,0,0,0,,在我的一生中，社会的第二个巨大变化是互联网。
 Dialogue: 0,0:11:28.93,0:11:33.45,English,,0,0,0,,The second huge change that surfed through society in my lifetime was the Internet.
-Dialogue: 0,0:11:34.27,0:11:43.23,English,,0,0,0,,It's effectively meant that information could move at no cost instantly anywhere in the world, and at first it was capital that was able to move.
-Dialogue: 0,0:11:43.99,0:11:49.63,English,,0,0,0,,The next big change that scrape through society was information, making information effectively move very, very efficient.
-Dialogue: 0,0:11:50.41,0:11:58.57,English,,0,0,0,,And there are still blocks and barriers and firewalls and filtering and things like that, but the trend absolutely is to make sure that information is instantly available anywhere.
+Dialogue: 0,0:11:34.27,0:11:40.38,Chinese,,0,0,0,,这意味着信息可以在世界任何地方免费即时移动
+Dialogue: 0,0:11:34.27,0:11:40.38,English,,0,0,0,,It's effectively meant that information could move at no cost instantly anywhere in the world
+Dialogue: 0,0:11:40.38,0:11:43.23,Chinese,,0,0,0,,起初，能够自由移动的是资本。
+Dialogue: 0,0:11:40.38,0:11:43.23,English,,0,0,0,,and at first it was capital that was able to move.
+Dialogue: 0,0:11:43.99,0:11:47.52,Chinese,,0,0,0,,而贯穿社会的下一个重大变化是信息
+Dialogue: 0,0:11:43.99,0:11:47.52,English,,0,0,0,,The next big change that scrape through society was information
+Dialogue: 0,0:11:47.52,0:11:49.63,Chinese,,0,0,0,,使得信息也能够高效地移动，非常非常高效。
+Dialogue: 0,0:11:47.52,0:11:49.63,English,,0,0,0,,making information effectively move very, very efficient.
+Dialogue: 0,0:11:50.41,0:11:54.53,Chinese,,0,0,0,,现在仍然有障碍和壁垒，还有防火墙和过滤器之类的东西
+Dialogue: 0,0:11:50.41,0:11:54.53,English,,0,0,0,,And there are still blocks and barriers and firewalls and filtering and things like that
+Dialogue: 0,0:11:54.53,0:11:58.57,Chinese,,0,0,0,,但趋势很明显是，信息将会在任何地方都能即时获得。
+Dialogue: 0,0:11:54.53,0:11:58.57,English,,0,0,0,,but the trend absolutely is to make sure that information is instantly available anywhere.
+Dialogue: 0,0:12:01.28,0:12:05.20,Chinese,,0,0,0,,人们最初想到的是分享信息的能力
 Dialogue: 0,0:12:01.28,0:12:05.20,English,,0,0,0,,And people initially thought about that in terms of the ability to send stuff out.
-Dialogue: 0,0:12:06.53,0:12:14.01,English,,0,0,0,,But if you could set up a website, now you could reach every customer in the world, every technology can connect to customer in the world.
-Dialogue: 0,0:12:15.27,0:12:16.35,English,,0,0,0,,So the next big change.
-Dialogue: 0,0:12:17.28,0:12:21.64,English,,0,0,0,,That we're starting to see is kind of like that wave coming back at us.
-Dialogue: 0,0:12:22.70,0:12:29.14,English,,0,0,0,,So the first change is all about connecting the world so that companies who have a domain could send information out.
-Dialogue: 0,0:12:30.34,0:12:38.50,English,,0,0,0,,to provide services out to the edges of their network, right? But now what we are seeing is that the edges of the network are starting to talk back.
+Dialogue: 0,0:12:06.53,0:12:11.64,Chinese,,0,0,0,,但是，如果你可以建立一个网站，现在你可以接触到世界上的每一个客户
+Dialogue: 0,0:12:06.53,0:12:11.64,English,,0,0,0,,But if you could set up a website, now you could reach every customer in the world
+Dialogue: 0,0:12:11.64,0:12:14.01,Chinese,,0,0,0,,每一种技术都可以让你与全世界的客户进行沟通。
+Dialogue: 0,0:12:11.64,0:12:14.01,English,,0,0,0,,every technology can connect to customer in the world.
+Dialogue: 0,0:12:15.27,0:12:17.28,Chinese,,0,0,0,,因此，下一个我们开始看到的大变化
+Dialogue: 0,0:12:15.27,0:12:17.28,English,,0,0,0,,So the next big change
+Dialogue: 0,0:12:17.28,0:12:21.64,Chinese,,0,0,0,,是这个（我们推动的）浪潮朝着我们打回来。
+Dialogue: 0,0:12:17.28,0:12:21.64,English,,0,0,0,,that we're starting to see is kind of like that wave coming back at us.
+Dialogue: 0,0:12:22.70,0:12:25.46,Chinese,,0,0,0,,第一个变化仅仅是关于连接世界
+Dialogue: 0,0:12:22.70,0:12:25.46,English,,0,0,0,,So the first change is all about connecting the world
+Dialogue: 0,0:12:25.46,0:12:29.14,Chinese,,0,0,0,,以便拥有域名的公司能够向外发送信息
+Dialogue: 0,0:12:25.46,0:12:29.14,English,,0,0,0,,so that companies who have a domain could send information out.
+Dialogue: 0,0:12:30.34,0:12:34.33,Chinese,,0,0,0,,以提供服务到网络的边缘，对吗？
+Dialogue: 0,0:12:30.34,0:12:34.33,English,,0,0,0,,to provide services out to the edges of their network, right?
+Dialogue: 0,0:12:34.33,0:12:38.50,Chinese,,0,0,0,,但现在我们看到的是，网络的边缘开始回话了。
+Dialogue: 0,0:12:34.33,0:12:38.50,English,,0,0,0,,But now what we are seeing is that the edges of the network are starting to talk back.
+Dialogue: 0,0:12:40.15,0:12:41.11,Chinese,,0,0,0,,正在发生的是
 Dialogue: 0,0:12:40.15,0:12:41.11,English,,0,0,0,,Basically, what's happening is that
-Dialogue: 0,0:12:42.41,0:12:50.37,English,,0,0,0,,information and content and ideas from the edges of the network were coming in and changing the center. So how many. Can you guys get access to Wikipedia?
+Dialogue: 0,0:12:42.41,0:12:47.71,Chinese,,0,0,0,,来自网络边缘的信息、内容和想法，正在进入并改变网络的中心
+Dialogue: 0,0:12:42.41,0:12:47.71,English,,0,0,0,,information and content and ideas from the edges of the network were coming in and changing the center.
+Dialogue: 0,0:12:47.71,0:12:50.37,Chinese,,0,0,0,,因此，有多少人。你们能访问维基百科吗？
+Dialogue: 0,0:12:47.71,0:12:50.37,English,,0,0,0,,So, how many. Can you guys get access to Wikipedia?
+Dialogue: 0,0:12:51.88,0:12:57.36,Chinese,,0,0,0,,（至于）亚马逊的商业成功，亚马逊的秘密是他们的客户。
 Dialogue: 0,0:12:51.88,0:12:57.36,English,,0,0,0,,Amazon's business success, the secret to Amazon's business success is their customers.
+Dialogue: 0,0:12:57.96,0:13:04.08,Chinese,,0,0,0,,是那些回过来给它们提供信息的人。亚马逊拥有关于这个世界上的书籍
 Dialogue: 0,0:12:57.96,0:13:04.08,English,,0,0,0,,Is the people who come back to them and give them information. Amazon has the richest collection of information.
+Dialogue: 0,0:13:04.77,0:13:11.81,Chinese,,0,0,0,,最丰富的信息数据库，但它们并没有建立这些知识。它们从一开始所做的只不过是
 Dialogue: 0,0:13:04.77,0:13:11.81,English,,0,0,0,,about books in the world, but they didn't build that knowledge. What they've done is they basically they started out
-Dialogue: 0,0:13:12.66,0:13:20.70,English,,0,0,0,,sending information out, they are providing a service globally. And then then the wave came back, and they started gathering back your knowledge, your ideas, your preferences,
+Dialogue: 0,0:13:12.66,0:13:16.94,Chinese,,0,0,0,,把信息送出去，它们在全球范围内提供这个服务。然后浪潮打了回来
+Dialogue: 0,0:13:12.66,0:13:16.94,English,,0,0,0,,sending information out, they are providing a service globally. And then then the wave came back
+Dialogue: 0,0:13:16.94,0:13:20.70,Chinese,,0,0,0,,于是亚马逊开始收集你的知识，你的想法，你的偏好
+Dialogue: 0,0:13:16.94,0:13:20.70,English,,0,0,0,,and they started gathering back your knowledge, your ideas, your preferences,
+Dialogue: 0,0:13:21.27,0:13:28.55,Chinese,,0,0,0,,你最喜欢的书，你对某本书的看法，对吧。这种变化就是这样发生的。
 Dialogue: 0,0:13:21.27,0:13:28.55,English,,0,0,0,,your favorite books, your thoughts about a particular book, right? So you see how this change is happening.
+Dialogue: 0,0:13:30.20,0:13:33.96,Chinese,,0,0,0,,我相信，下一代的伟大企业，都会反映这个变化。
 Dialogue: 0,0:13:30.20,0:13:33.96,English,,0,0,0,,The next generation of great businesses, I believe, are all going to reflect this.
-Dialogue: 0,0:13:34.70,0:13:43.30,English,,0,0,0,,Google reflects this. Google reflects this by taking every time you create a web page and you link to other web pages, you're telling Google what's important on the web.
+Dialogue: 0,0:13:34.70,0:13:39.00,Chinese,,0,0,0,,谷歌就反映了这一点。每当你创建一个网页并
+Dialogue: 0,0:13:34.70,0:13:39.00,English,,0,0,0,,Google reflects this. Google reflects this by taking every time you create a web page and
+Dialogue: 0,0:13:39.00,0:13:43.30,Chinese,,0,0,0,,链接到其他网页时，你都在告诉谷歌网络上有哪些重要的内容。
+Dialogue: 0,0:13:39.00,0:13:43.30,English,,0,0,0,,you link to other web pages, you're telling Google what's important on the web.
+Dialogue: 0,0:13:44.64,0:13:48.80,Chinese,,0,0,0,,谷歌正在有效地利用你在网络边缘产生的知识，对吧
 Dialogue: 0,0:13:44.64,0:13:48.80,English,,0,0,0,,Google is effectively using your knowledge from the edge of the network, right?
-Dialogue: 0,0:13:49.64,0:13:57.71,English,,0,0,0,,So maybe you (inaudible) connect all of those businesses and see that there is an underlying effect happening there, but there really is
+Dialogue: 0,0:13:49.64,0:13:53.18,Chinese,,0,0,0,,因此，也许你还没有将所有这些企业联系起来
+Dialogue: 0,0:13:49.64,0:13:53.18,English,,0,0,0,,So maybe you (inaudible) connect all of those businesses and see that
+Dialogue: 0,0:13:53.18,0:13:57.71,Chinese,,0,0,0,,并且发现这个潜在的效果，但它确实正在发生。
+Dialogue: 0,0:13:53.18,0:13:57.71,English,,0,0,0,,there is an underlying effect happening there, but there really is
+Dialogue: 0,0:13:57.71,0:13:59.39,Chinese,,0,0,0,,例如，Ebay。
 Dialogue: 0,0:13:57.71,0:13:59.39,English,,0,0,0,,Ebay. For example, ebay.
-Dialogue: 0,0:14:00.54,0:14:07.86,English,,0,0,0,,The value in ebay is not created by ebay, it's created by all of their uses. You go to ebay, people go to ebay because everybody else is going there.
-Dialogue: 0,0:14:08.32,0:14:16.88,English,,0,0,0,,You go to Wikipedia because everybody else is going there, you see, the values not being created at the center, and then exported. The values are being created at the edges and then brought back in.
+Dialogue: 0,0:14:00.54,0:14:04.52,Chinese,,0,0,0,,Ebay的价值不是由Ebay创造的，是由他们所有的用户创造的。
+Dialogue: 0,0:14:00.54,0:14:04.52,English,,0,0,0,,The value in ebay is not created by ebay, it's created by all of their users
+Dialogue: 0,0:14:04.52,0:14:07.86,Chinese,,0,0,0,,你使用Ebay，我们使用Ebay，是因为大家都在用它。
+Dialogue: 0,0:14:04.52,0:14:07.86,English,,0,0,0,,You go to ebay, people go to ebay because everybody else is going there.
+Dialogue: 0,0:14:08.32,0:14:13.40,Chinese,,0,0,0,,你用维基百科，是因为其他人都在用它。你看，这些价值不是在中心创造
+Dialogue: 0,0:14:08.32,0:14:13.40,English,,0,0,0,,You go to Wikipedia because everybody else is going there, you see, the values not being created at the center
+Dialogue: 0,0:14:13.40,0:14:16.88,Chinese,,0,0,0,,然后再输出（到网络边缘）的。这些价值是在边缘创造的，然后再赋予中心的。
+Dialogue: 0,0:14:13.40,0:14:16.88,English,,0,0,0,,and then exported. The values are being created at the edges and then brought back in.
+Dialogue: 0,0:14:18.72,0:14:25.24,Chinese,,0,0,0,,我认为，这是一个非常有趣的例子，帮助我们理解边缘与中心的对话是如何发生
 Dialogue: 0,0:14:18.72,0:14:25.24,English,,0,0,0,,I think, it's a very interesting example of how that phenomenon of the edges talking back to the center
+Dialogue: 0,0:14:25.87,0:14:30.15,Chinese,,0,0,0,,并且正在如何改变软件世界的。对吧？在过去，
 Dialogue: 0,0:14:25.87,0:14:30.15,English,,0,0,0,,Is changing the world of software. Right? It used to be that
+Dialogue: 0,0:14:31.38,0:14:37.02,Chinese,,0,0,0,,构建软件的最佳方式是雇用来自全世界的聪明人，并将他们转移到中心。
 Dialogue: 0,0:14:31.38,0:14:37.02,English,,0,0,0,,the best way to build software was to hire very smart guys from all around the world and move them to the center.
+Dialogue: 0,0:14:38.01,0:14:42.53,Chinese,,0,0,0,,因此，微软、甲骨文和SAP会去雇用员工
 Dialogue: 0,0:14:38.01,0:14:42.53,English,,0,0,0,,So Microsoft and Oracle and SAP would go and hire people
-Dialogue: 0,0:14:43.40,0:14:50.80,English,,0,0,0,,and move them to Raymond or San Francisco or Germany, and they would have centralized development laboratories.
+Dialogue: 0,0:14:43.40,0:14:48.47,Chinese,,0,0,0,,并把他/她们转移到雷德蒙德（译注：微软总部）或旧金山或德国
+Dialogue: 0,0:14:43.40,0:14:48.47,English,,0,0,0,,and move them to Redmond or San Francisco or Germany
+Dialogue: 0,0:14:48.47,0:14:50.80,Chinese,,0,0,0,,并在那里建立集中的开发实验室。
+Dialogue: 0,0:14:48.47,0:14:50.80,English,,0,0,0,,and they would have centralized development laboratories.
+Dialogue: 0,0:14:51.51,0:14:55.91,Chinese,,0,0,0,,然后这些公司会把开发的成果分发给它们网络的边缘，对吧
 Dialogue: 0,0:14:51.51,0:14:55.91,English,,0,0,0,,And then they would ship the results of that stuff back out to the edges of their network, right?
-Dialogue: 0,0:14:56.57,0:14:59.33,English,,0,0,0,,But today, free supper is turning that around and saying, OK,
-Dialogue: 0,0:15:00.08,0:15:08.72,English,,0,0,0,,let's find the smartest, most self motivated people who are interested in technology at the edges of an network. Let's harness and gather all of their thinking.
+Dialogue: 0,0:14:56.57,0:14:59.33,Chinese,,0,0,0,,但在今天，自由软件正在扭转这一局面，并说，好吧
+Dialogue: 0,0:14:56.57,0:14:59.33,English,,0,0,0,,But today, free software is turning that around and saying, OK,
+Dialogue: 0,0:15:00.08,0:15:05.05,Chinese,,0,0,0,,让我们在网络的边缘找到对技术感兴趣的
+Dialogue: 0,0:15:00.08,0:15:05.05,English,,0,0,0,,let's find the smartest, most self motivated people who are interested in technology
+Dialogue: 0,0:15:05.05,0:15:08.72,Chinese,,0,0,0,,最聪明、最具有动力的人。让我们利用和收集他/她们的想法
+Dialogue: 0,0:15:05.05,0:15:08.72,English,,0,0,0,,at the edges of an network. Let's harness and gather all of their thinking.
+Dialogue: 0,0:15:09.56,0:15:15.28,Chinese,,0,0,0,,并把这些想法带回到中心。就这样，我们从根本上改变了软件的生产方式。
 Dialogue: 0,0:15:09.56,0:15:15.28,English,,0,0,0,,And bring it to the center. So we completely fundamentally change the way software is being produced.
+Dialogue: 0,0:15:16.33,0:15:24.69,Chinese,,0,0,0,,我认为，就像维基百科是一个比百科全书更好的知识库，比如美国世界百科全书
 Dialogue: 0,0:15:16.33,0:15:24.69,English,,0,0,0,,And I think, just like Wikipedia is a better repository of knowledge than say an encyclopedia like world book.
+Dialogue: 0,0:15:24.69,0:15:28.99,Chinese,,0,0,0,,比如大英百科全书，或者，我不知道中国的百科全书叫什么
 Dialogue: 0,0:15:24.69,0:15:28.99,English,,0,0,0,,or Encyclopedia Britannica, or I don't know what the equivalent Chinese is.
+Dialogue: 0,0:15:29.80,0:15:35.48,Chinese,,0,0,0,,但相类似的，自由软件是一个更好的技术知识库
 Dialogue: 0,0:15:29.80,0:15:35.48,English,,0,0,0,,So it is that free software effectively is a better repository of technology expertise.
+Dialogue: 0,0:15:36.37,0:15:39.69,Chinese,,0,0,0,,比起在中心编写的专有软件而言。
 Dialogue: 0,0:15:36.37,0:15:39.69,English,,0,0,0,,Then proprietary software, which is getting written at the center.
-Dialogue: 0,0:15:41.46,0:15:48.82,English,,0,0,0,,So it's interesting to me that free software actually started to happen before Wikipedia started to happen, before Amazon started to happen
+Dialogue: 0,0:15:41.46,0:15:44.96,Chinese,,0,0,0,,而有趣的是，自由软件实际上在维基百科之前就已经开始了
+Dialogue: 0,0:15:41.46,0:15:44.96,English,,0,0,0,,So it's interesting to me that free software actually started to happen
+Dialogue: 0,0:15:44.96,0:15:48.82,Chinese,,0,0,0,,甚至比亚马逊的出生还要更早
+Dialogue: 0,0:15:44.96,0:15:48.82,English,,0,0,0,,before Wikipedia started to happen, before Amazon started to happen
+Dialogue: 0,0:15:48.82,0:15:57.33,Chinese,,0,0,0,,还比其它一些企业更早。因为在互联网的最早期阶段，
 Dialogue: 0,0:15:48.82,0:15:57.33,English,,0,0,0,,before some of those other businesses, because with software, in the very early days of the Internet,
-Dialogue: 0,0:15:57.96,0:16:05.32,English,,0,0,0,,The people who participated in the Internet were mostly programmers, so they started to show this ability of harnessing knowledge from the edge of the network and moving into the center.
+Dialogue: 0,0:15:57.96,0:16:00.87,Chinese,,0,0,0,,当时使用互联网的人大部分是程序员，所以
+Dialogue: 0,0:15:57.96,0:16:00.87,English,,0,0,0,,The people who participated in the Internet were mostly programmers, so they
+Dialogue: 0,0:16:00.87,0:16:05.32,Chinese,,0,0,0,,他/她们最早展示出这种从网络边缘获取知识并影响中心的能力
+Dialogue: 0,0:16:00.87,0:16:05.32,English,,0,0,0,,started to show this ability of harnessing knowledge from the edge of the network and moving into the center.
+Dialogue: 0,0:16:06.93,0:16:09.01,Chinese,,0,0,0,,远远早于互联网公司
 Dialogue: 0,0:16:06.93,0:16:09.01,English,,0,0,0,,well before the industries did.
+Dialogue: 0,0:16:10.04,0:16:13.64,Chinese,,0,0,0,,我将要向你预测，每一个行业都将被这改变。
 Dialogue: 0,0:16:10.04,0:16:13.64,English,,0,0,0,,But I will predict to you that every single industry is going to be changed by this.
+Dialogue: 0,0:16:15.22,0:16:17.06,Chinese,,0,0,0,,想想今天的音乐产业。
 Dialogue: 0,0:16:15.22,0:16:17.06,English,,0,0,0,,Think of the music industry today.
-Dialogue: 0,0:16:17.84,0:16:24.56,English,,0,0,0,,Today, the music industry still looks like that centralized kind of thing. Content is produced at the center and then shipped out.
-Dialogue: 0,0:16:25.45,0:16:35.16,English,,0,0,0,,To the edges, right? So what's going to be what's going to be like in ten years time or fifteen year's time is the opposite, content to be produced at the edges of the network and then shipped in.
-Dialogue: 0,0:16:35.16,0:16:43.16,English,,0,0,0,,You will define what the popular music is by talking to your friends, and in that conversation, out of that global conversation will come
-Dialogue: 0,0:16:43.83,0:16:49.40,English,,0,0,0,,the hits of the year. Rather than the hits of the year being defined at the center, and the moved out.
-Dialogue: 0,0:16:49.40,0:16:55.72,English,,0,0,0,,What are the industries? Engineers is very interesting at the moment, people understand the free software movement.
+Dialogue: 0,0:16:17.84,0:16:21.63,Chinese,,0,0,0,,今天，音乐产业看起来仍然是中心化的。
+Dialogue: 0,0:16:17.84,0:16:21.63,English,,0,0,0,,Today, the music industry still looks like that centralized kind of thing.
+Dialogue: 0,0:16:21.63,0:16:27.05,Chinese,,0,0,0,,内容在中心生产，并向我所提到的边缘输送。
+Dialogue: 0,0:16:21.63,0:16:27.05,English,,0,0,0,,Content is produced at the center and then shipped out to the edges that I drew, right?
+Dialogue: 0,0:16:27.05,0:16:30.97,Chinese,,0,0,0,,而十年后或十五年后将会完全是相反的
+Dialogue: 0,0:16:27.05,0:16:30.97,English,,0,0,0,,So what's going to be what's going to be like in ten years time or fifteen year's time is the opposite
+Dialogue: 0,0:16:30.97,0:16:35.16,Chinese,,0,0,0,,内容将在网络的边缘生产，然后输送回（中心）。
+Dialogue: 0,0:16:30.97,0:16:35.16,English,,0,0,0,,content to be produced at the edges of the network and then shipped in.
+Dialogue: 0,0:16:35.16,0:16:39.38,Chinese,,0,0,0,,你将通过与你的朋友交谈来定义什么是流行音乐
+Dialogue: 0,0:16:35.16,0:16:39.38,English,,0,0,0,,out of that global conversation will come You will define what the popular music is by talking to your friends
+Dialogue: 0,0:16:39.38,0:16:44.70,Chinese,,0,0,0,,通过你们的交流，从这种全球性的交流中，产生年度热门歌曲。
+Dialogue: 0,0:16:39.38,0:16:44.70,English,,0,0,0,,and in that conversation, out of that global conversation will come the hit of the year
+Dialogue: 0,0:16:44.70,0:16:49.40,Chinese,,0,0,0,,而不是在中心定义年度热门歌曲，然后再输送给边缘。
+Dialogue: 0,0:16:44.70,0:16:49.40,English,,0,0,0,,Rather than the hits of the year being defined at the center, and the moved out.
+Dialogue: 0,0:16:49.40,0:16:51.56,Chinese,,0,0,0,,有哪些行业（会受到它的影响）？工程，对吧
+Dialogue: 0,0:16:49.40,0:16:51.56,English,,0,0,0,,What are the industries? Engineering. Right?
+Dialogue: 0,0:16:51.56,0:16:55.72,Chinese,,0,0,0,,有趣的是，目前人们理解自由软件运动。
+Dialogue: 0,0:16:51.56,0:16:55.72,English,,0,0,0,,It is very interesting. At the moment, people understand the free software movement.
+Dialogue: 0,0:16:56.15,0:17:02.55,Chinese,,0,0,0,,但我认为，我们将在工程的每一个类别中都看到类似的现象出生。
 Dialogue: 0,0:16:56.15,0:17:02.55,English,,0,0,0,,But I think we are going to see equivalent phenomenons happening in every category of engineering.
+Dialogue: 0,0:17:03.55,0:17:07.97,Chinese,,0,0,0,,机动车，让机动车设计相同的（听不清）并让每个公司都
 Dialogue: 0,0:17:03.55,0:17:07.97,English,,0,0,0,,Motor cars, it doesn't make sense to have motor cars design same (inaudible)
-Dialogue: 0,0:17:08.68,0:17:17.04,English,,0,0,0,,And for each company to have to reinvent the wheel, it makes much more sense for us effectively, to evolve designs based on the best talent wherever it happens to be.
+Dialogue: 0,0:17:08.68,0:17:13.04,Chinese,,0,0,0,,重新造轮子，是不现实的。对我们来说更具有意义的是
+Dialogue: 0,0:17:08.68,0:17:13.04,English,,0,0,0,,and for each company to have to reinvent the wheel. it makes much more sense for us effectively
+Dialogue: 0,0:17:13.04,0:17:17.04,Chinese,,0,0,0,,让最优秀的人才来推动设计，无论这些设计在哪里产生。
+Dialogue: 0,0:17:13.04,0:17:17.04,English,,0,0,0,,to evolve designs based on the best talent wherever it happens to be.
+Dialogue: 0,0:17:17.49,0:17:23.97,Chinese,,0,0,0,,随着时间的推移，房子，现在有一个新的网站，能够有效地使建筑师
 Dialogue: 0,0:17:17.49,0:17:23.97,English,,0,0,0,,Over time, houses is now, there's now a website that's being set up, which effectively allows architects
+Dialogue: 0,0:17:25.17,0:17:30.25,Chinese,,0,0,0,,以如同编写维基百科的方式来设计房屋，
 Dialogue: 0,0:17:25.17,0:17:30.25,English,,0,0,0,,to design houses using the same processes by which Wikipedia is written.
-Dialogue: 0,0:17:30.90,0:17:38.62,English,,0,0,0,,Using the same processes by which free software, by which Linux is written, the same processes by which Amazon gathers its databases.
-Dialogue: 0,0:17:39.82,0:17:45.98,English,,0,0,0,,Harnessing architectural talent from all around the world and producing a shared repository of architectural designs.
+Dialogue: 0,0:17:30.90,0:17:37.00,Chinese,,0,0,0,,就如同自由软件被编写出来的过程，Linux操作系统被编写出来的过程
+Dialogue: 0,0:17:30.90,0:17:37.00,English,,0,0,0,,Using the same processes by which free software, by which Linux is written, the same processes by which
+Dialogue: 0,0:17:37.00,0:17:42.47,Chinese,,0,0,0,,也是亚马逊建立起其数据库的相同过程，利用世界各地的建筑人才
+Dialogue: 0,0:17:37.00,0:17:42.47,English,,0,0,0,,Amazon gathers its databases, harnessing architectural talent from all around the world 
+Dialogue: 0,0:17:42.47,0:17:45.98,Chinese,,0,0,0,,来建立一个共享的建筑设计资源库。
+Dialogue: 0,0:17:42.47,0:17:45.98,English,,0,0,0,,and producing a shared repository of architectural designs.
+Dialogue: 0,0:17:47.82,0:17:52.26,Chinese,,0,0,0,,我很难想到有哪个行业能够免疫这一趋势的影响。
 Dialogue: 0,0:17:47.82,0:17:52.26,English,,0,0,0,,It's very hard for me to think of a single industry which is not going to be touched like this.
+Dialogue: 0,0:17:53.01,0:17:58.21,Chinese,,0,0,0,,因此，作为一个企业家，无论你的个人爱好是什么，如果你对，
 Dialogue: 0,0:17:53.01,0:17:58.21,English,,0,0,0,,So as an entrepreneur, whatever your personal passions are, right, if you're interested in,
+Dialogue: 0,0:17:59.28,0:18:02.16,Chinese,,0,0,0,,无论你对什么感兴趣，你应该开始思考
 Dialogue: 0,0:17:59.28,0:18:02.16,English,,0,0,0,,whatever you're interested in, start thinking about
-Dialogue: 0,0:18:03.02,0:18:12.15,English,,0,0,0,,how this process could affect your industry? if you're interested in chemistry. For example, someone who was asking me questions earlier and he's a chemist
-Dialogue: 0,0:18:12.15,0:18:13.91,English,,0,0,0,,Stop thinking about this. How could you aggregate
-Dialogue: 0,0:18:15.22,0:18:25.18,English,,0,0,0,,chemical knowledge from the edges of the network and build a shared repository like Wikipedia. And then how could you build a business around that.
-Dialogue: 0,0:18:25.18,0:18:34.16,English,,0,0,0,,How do you change the business model to reflect the changed operational model Because each of these, each of these changes.
-Dialogue: 0,0:18:34.16,0:18:39.10,English,,0,0,0,,Is powered by a technology change, but ultimately it's also an economic change.
-Dialogue: 0,0:18:39.10,0:18:45.14,English,,0,0,0,,And so so the business model of Google is very different to the business model of Microsoft.
-Dialogue: 0,0:18:45.14,0:18:53.93,English,,0,0,0,,Completely different, and Microsoft really needs to understand how they can evolve so that they keep up with the underlying changes.
+Dialogue: 0,0:18:03.02,0:18:07.26,Chinese,,0,0,0,,这个过程会如何影响你的行业？比如说你对化学感兴趣
+Dialogue: 0,0:18:03.02,0:18:07.26,English,,0,0,0,,how this process could affect your industry? if you're interested in chemistry, for example
+Dialogue: 0,0:18:07.26,0:18:12.15,Chinese,,0,0,0,,刚好之前有位问我问题的人就是一位化学家
+Dialogue: 0,0:18:07.26,0:18:12.15,English,,0,0,0,,someone who was asking me questions earlier and he's a chemist
+Dialogue: 0,0:18:12.15,0:18:18.73,Chinese,,0,0,0,,你应该开始思考，你如何能从网络的边缘聚集化学知识，
+Dialogue: 0,0:18:12.15,0:18:18.73,English,,0,0,0,,Start thinking about this. How could you aggregate chemical knowledge from the edges of the network 
+Dialogue: 0,0:18:18.73,0:18:25.18,Chinese,,0,0,0,,并建立一个像维基百科一样的共享资料库？你又该如何围绕它创立一个企业？
+Dialogue: 0,0:18:18.73,0:18:25.18,English,,0,0,0,,and build a shared repository like Wikipedia. And then how could you build a business around that.
+Dialogue: 0,0:18:25.18,0:18:29.79,Chinese,,0,0,0,,你该如何改变你的商业模式，去适应发生改变的运作模式？
+Dialogue: 0,0:18:25.18,0:18:29.79,English,,0,0,0,,How do you change the business model to reflect the changed operational model?
+Dialogue: 0,0:18:29.79,0:18:34.16,Chinese,,0,0,0,,因为这里的每一个变化
+Dialogue: 0,0:18:29.79,0:18:34.16,English,,0,0,0,,Because each of these, each of these changes
+Dialogue: 0,0:18:34.16,0:18:39.10,Chinese,,0,0,0,,都是由技术变革驱动的，但最终它也会成为经济变革。
+Dialogue: 0,0:18:34.16,0:18:39.10,English,,0,0,0,,is powered by a technology change, but ultimately it's also an economic change.
+Dialogue: 0,0:18:39.10,0:18:45.14,Chinese,,0,0,0,,谷歌的商业模式与微软的商业模式就非常不同。
+Dialogue: 0,0:18:39.10,0:18:45.14,English,,0,0,0,,And so, so, the business model of Google is very different to the business model of Microsoft.
+Dialogue: 0,0:18:45.14,0:18:49.91,Chinese,,0,0,0,,完全不同。微软真的需要去了解
+Dialogue: 0,0:18:45.14,0:18:49.91,English,,0,0,0,,Completely different, and Microsoft really needs to understand how
+Dialogue: 0,0:18:49.91,0:18:53.93,Chinese,,0,0,0,,它们应当如何发展来跟上这些潜在的变化。
+Dialogue: 0,0:18:49.91,0:18:53.93,English,,0,0,0,,they can evolve so that they keep up with the underlying changes.
+Dialogue: 0,0:18:56.17,0:18:59.13,Chinese,,0,0,0,,我还想简单谈一下自由软件，作为企业家的平台
 Dialogue: 0,0:18:56.17,0:18:59.13,English,,0,0,0,,So I also want to talk a little bit about free software as a platform for
+Dialogue: 0,0:19:00.40,0:19:06.08,Chinese,,0,0,0,,如果你是一个企业家，你的工作就是要缩小差距。
 Dialogue: 0,0:19:00.40,0:19:06.08,English,,0,0,0,,for entrepreneurs, right? If you're an entrepreneur, your job is to close a gap.
-Dialogue: 0,0:19:07.74,0:19:13.38,English,,0,0,0,,To close an economic gap, to find an opportunity, and then build the infrastructure to service them the opportunity
+Dialogue: 0,0:19:07.74,0:19:15.11,Chinese,,0,0,0,,缩小经济差距，找到一个机会，然后建立基础设施，为他们提供机会。
+Dialogue: 0,0:19:07.74,0:19:15.11,English,,0,0,0,,To close an economic gap, to find an opportunity, and then build the infrastructure to service them the opportunity
+Dialogue: 0,0:19:15.11,0:19:20.71,Chinese,,0,0,0,,如果我们观察所有伟大的科技公司，例如NetApp，例如，这里有多少人用过VMware？
 Dialogue: 0,0:19:15.11,0:19:20.71,English,,0,0,0,,If I look at all of the great technology businesses from NetApp, through, how many of the guys have used VMware?
+Dialogue: 0,0:19:20.71,0:19:24.75,Chinese,,0,0,0,,如果你用过VMWare
 Dialogue: 0,0:19:20.71,0:19:24.75,English,,0,0,0,,so if you used VMWare, through
+Dialogue: 0,0:19:27.69,0:19:31.77,Chinese,,0,0,0,,例如谷歌、雅虎这样的大型信息服务企业
 Dialogue: 0,0:19:27.69,0:19:31.77,English,,0,0,0,,the big information service businesses like Google, Yahoo.
-Dialogue: 0,0:19:33.71,0:19:41.27,English,,0,0,0,,big electronic trading businesses like Schwab and ebay or something, all of these businesses were actually built out using free software components.
+Dialogue: 0,0:19:33.71,0:19:37.29,Chinese,,0,0,0,,例如嘉信和Ebay这样的大型线上交易企业
+Dialogue: 0,0:19:33.71,0:19:37.29,English,,0,0,0,,big electronic trading businesses like Schwab and ebay or something
+Dialogue: 0,0:19:37.29,0:19:41.27,Chinese,,0,0,0,,所有这些企业实际上都是基于自由软件所组建起来的
+Dialogue: 0,0:19:37.29,0:19:41.27,English,,0,0,0,,all of these businesses were actually built out using free software components.
+Dialogue: 0,0:19:42.48,0:19:47.56,Chinese,,0,0,0,,软件产业的价值不在于软件的许可成本。
 Dialogue: 0,0:19:42.48,0:19:47.56,English,,0,0,0,,The value of the software industry is not the licensing cost of the software.
-Dialogue: 0,0:19:48.49,0:19:53.61,English,,0,0,0,,It's the value of the economic processes that you're able to set up using that software.
-Dialogue: 0,0:19:54.48,0:20:01.86,English,,0,0,0,,And if you're an entrepreneur, a technology entrepreneur today, it's worth thinking about the fact that you can get started faster, using free software.
+Dialogue: 0,0:19:48.49,0:19:54.48,Chinese,,0,0,0,,而是你能够使用该软件建立的经济过程的价值。
+Dialogue: 0,0:19:48.49,0:19:54.48,English,,0,0,0,,It's the value of the economic processes that you're able to set up using that software.
+Dialogue: 0,0:19:54.48,0:19:56.87,Chinese,,0,0,0,,如果你是一个创业者，一个今日的科技领域创业者
+Dialogue: 0,0:19:54.48,0:19:56.87,English,,0,0,0,,And if you're an entrepreneur, a technology entrepreneur today
+Dialogue: 0,0:19:56.87,0:20:01.86,Chinese,,0,0,0,,值得你考虑的是，你可以使用自由软件更快地起步
+Dialogue: 0,0:19:56.87,0:20:01.86,English,,0,0,0,,it's worth thinking about the fact that you can get started faster, using free software.
+Dialogue: 0,0:20:01.86,0:20:08.79,Chinese,,0,0,0,,你可以用自由软件更快地定制能满足你目的的工具
 Dialogue: 0,0:20:01.86,0:20:08.79,English,,0,0,0,,You can customize the tools to your to your purposes faster, using free software.
+Dialogue: 0,0:20:08.79,0:20:13.34,Chinese,,0,0,0,,你可以用自由软件更加高效地建立起你的业务。
 Dialogue: 0,0:20:08.79,0:20:13.34,English,,0,0,0,,You can effectively build your business much more efficiently using free software.
+Dialogue: 0,0:20:13.34,0:20:19.26,Chinese,,0,0,0,,因此，我将自信地预测，在未来 15 到 20 年内，最好的技术企业
 Dialogue: 0,0:20:13.34,0:20:19.26,English,,0,0,0,,So I'm going to predict effectively that the best technology businesses over the next 15 or 20 years
+Dialogue: 0,0:20:19.26,0:20:26.33,Chinese,,0,0,0,,都会受到自由软件的助力，包括你们。以及你们用 Youtube 吗？不能？好吧
 Dialogue: 0,0:20:19.26,0:20:26.33,English,,0,0,0,,are all going to be powered by free software, you too, and you guys get Youtube there? You can't? OK
-Dialogue: 0,0:20:26.33,0:20:33.69,English,,0,0,0,,Youtube is all built on free software. They use MySQL as a database, they use the Linux as the core operating system.
-Dialogue: 0,0:20:33.69,0:20:42.36,English,,0,0,0,,Their offering is proprietary in the sense that they don't give you their code, but all of the pieces that they need to build that business
-Dialogue: 0,0:20:42.80,0:20:44.56,English,,0,0,0,,are built on free software.
-Dialogue: 0,0:20:47.76,0:20:52.80,English,,0,0,0,,Over the next ten years is going to be consumer electronics. How many of you guys know about the one laptop per child project?
+Dialogue: 0,0:20:26.33,0:20:28.71,Chinese,,0,0,0,,Youtube 是整个建立在自由软件上的。
+Dialogue: 0,0:20:26.33,0:20:28.71,English,,0,0,0,,Youtube is all built on free software.
+Dialogue: 0,0:20:28.71,0:20:33.69,Chinese,,0,0,0,,它们使用 MySQL 作为数据库，用 Linux 作为核心操作系统。
+Dialogue: 0,0:20:28.71,0:20:33.69,English,,0,0,0,,They use MySQL as a database, they use the Linux as the core operating system.
+Dialogue: 0,0:20:33.69,0:20:39.55,Chinese,,0,0,0,,YouTube 的产品是专有的，它们不给你它们的代码
+Dialogue: 0,0:20:33.69,0:20:39.55,English,,0,0,0,,Their offering is proprietary in the sense that they don't give you their code
+Dialogue: 0,0:20:39.55,0:20:44.56,Chinese,,0,0,0,,但所有它们用来建立业务的工具，都建立在自由软件的基础之上。
+Dialogue: 0,0:20:39.55,0:20:44.56,English,,0,0,0,,but all of the pieces that they need to build that business are built on free software. 
+Dialogue: 0,0:20:47.76,0:20:50.49,Chinese,,0,0,0,,未来十年将是消费电子产品的时代
+Dialogue: 0,0:20:47.76,0:20:50.49,English,,0,0,0,,Over the next ten years is going to be consumer electronics.
+Dialogue: 0,0:20:50.49,0:20:52.80,Chinese,,0,0,0,,你们有多少人知道“每个孩子一台笔记本电脑”的项目？
+Dialogue: 0,0:20:50.49,0:20:52.80,English,,0,0,0,,How many of you guys know about the one laptop per child project?
+Dialogue: 0,0:20:55.37,0:20:59.41,Chinese,,0,0,0,,它的重点在于你能够以极低的价格获得正常工作的电脑
 Dialogue: 0,0:20:55.37,0:20:59.41,English,,0,0,0,,The thing about that is that there is functional computers at a very low price.
-Dialogue: 0,0:21:00.09,0:21:08.67,English,,0,0,0,,It was a complete inversion of the of the traditional way of looking at the PC market, the traditional way of looking at the PC market was
+Dialogue: 0,0:21:00.09,0:21:04.94,Chinese,,0,0,0,,这种方式完全颠覆了传统的个人电脑市场
+Dialogue: 0,0:21:00.09,0:21:04.94,English,,0,0,0,,It was a complete inversion of the of the traditional way of looking at the PC market
+Dialogue: 0,0:21:04.94,0:21:08.67,Chinese,,0,0,0,,传统的看待个人电脑市场的方式是
+Dialogue: 0,0:21:04.94,0:21:08.67,English,,0,0,0,,the traditional way of looking at the PC market was
+Dialogue: 0,0:21:08.67,0:21:15.51,Chinese,,0,0,0,,你设一个高的价位，如 700，900，1100 美元，然后你试图在这个价位上加入
 Dialogue: 0,0:21:08.67,0:21:15.51,English,,0,0,0,,You set high price points like $700, $900, $1100, and then you try and squeeze as much as functionality
-Dialogue: 0,0:21:16.24,0:21:18.56,English,,0,0,0,,into those price points as you can.
+Dialogue: 0,0:21:15.51,0:21:18.56,Chinese,,0,0,0,,尽你所能尽可能多的功能。
+Dialogue: 0,0:21:15.51,0:21:18.56,English,,0,0,0,,into those price points as you can.
+Dialogue: 0,0:21:19.50,0:21:22.78,Chinese,,0,0,0,,但是，通过“每个孩子一台笔记本电脑”的项目，他/她们颠覆了这一局面，他/她们说
 Dialogue: 0,0:21:19.50,0:21:22.78,English,,0,0,0,,But with the one laptop per child project, they turned it around, and they said,
-Dialogue: 0,0:21:23.60,0:21:29.48,English,,0,0,0,,This is actually here, let's define a useful amount of computational functionality that we can give here.
+Dialogue: 0,0:21:23.60,0:21:29.48,Chinese,,0,0,0,,实际上，让我们先来定义我们能提供的、有用的计算功能是多少
+Dialogue: 0,0:21:23.60,0:21:29.48,English,,0,0,0,,this is, actually, here, let's define a useful amount of computational functionality that we can give here.
+Dialogue: 0,0:21:30.24,0:21:33.20,Chinese,,0,0,0,,接下来让我们试试看，我们能以多便宜的价格来实现这个功能。
 Dialogue: 0,0:21:30.24,0:21:33.20,English,,0,0,0,,Let's see how cheaply we can produce that useful function.
-Dialogue: 0,0:21:33.92,0:21:40.40,English,,0,0,0,,This year, we can do it for $170 next year, we can do it for $130, year after that, we can do it for $99. And then we've got
-Dialogue: 0,0:21:40.96,0:21:47.04,English,,0,0,0,,$100 laptop, one laptop per child, and so my sense is that we're entering a time when
-Dialogue: 0,0:21:47.88,0:21:53.13,English,,0,0,0,,computing is going to be absolutely ubiquitously available. Your phone is basically a computer.
-Dialogue: 0,0:21:53.13,0:21:58.97,English,,0,0,0,,And Motorola says that 60% of their phones, within three years, are all going to run on Linux.
+Dialogue: 0,0:21:33.92,0:21:39.94,Chinese,,0,0,0,,今年，我们可以用 170 美元实现，明年可能就是 130 美元，后年可能就只要 99 美元
+Dialogue: 0,0:21:33.92,0:21:39.94,English,,0,0,0,,This year, we can do it for $170 next year, we can do it for $130, year after that, we can do it for $99.
+Dialogue: 0,0:21:39.94,0:21:47.04,Chinese,,0,0,0,,于是我们就有了 100 美元以下的电脑，“一个孩子一台笔记本电脑”。我的感觉是
+Dialogue: 0,0:21:39.94,0:21:47.04,English,,0,0,0,,And then we've got $100 laptop, one laptop per child, and so my sense is that we're entering a time when
+Dialogue: 0,0:21:47.04,0:21:53.13,Chinese,,0,0,0,,我们正在进入一个计算资源无处不在的时代。你的手机基本上就是一台电脑。
+Dialogue: 0,0:21:47.04,0:21:53.13,English,,0,0,0,,computing is going to be absolutely ubiquitously available. Your phone is basically a computer.
+Dialogue: 0,0:21:53.13,0:22:01.20,Chinese,,0,0,0,,摩托罗拉说，它们 60% 的手机，在三年内都将会在 Linux 上运行。
+Dialogue: 0,0:21:53.13,0:22:01.20,English,,0,0,0,,And Motorola says that 60% of their phones, within three years, are all going to run on Linux.
+Dialogue: 0,0:22:01.20,0:22:06.30,Chinese,,0,0,0,,我们还不知道人们会用这些计算平台做什么。
 Dialogue: 0,0:22:01.20,0:22:06.30,English,,0,0,0,,We don't yet know what people will do with those computing platforms.
-Dialogue: 0,0:22:06.30,0:22:12.46,English,,0,0,0,,So I think that a lot of the innovation, a lot of the economic, the next generation of big businesses are effectively going to be
-Dialogue: 0,0:22:14.68,0:22:19.36,English,,0,0,0,,handheld devices or powered by handheld devices, rather than being powered by incidents
-Dialogue: 0,0:22:19.86,0:22:26.10,English,,0,0,0,,or powered by the PC, because you have many, many more people who carry hand held devices than you do
-Dialogue: 0,0:22:26.60,0:22:34.24,English,,0,0,0,,have people sitting in front of a computer all the time. I've got a laptop sitting in the car right now, but I've got a phone with me right here.
-Dialogue: 0,0:22:35.09,0:22:41.01,English,,0,0,0,,So if you can provide services, if you can build new economic models around delivering services to people
-Dialogue: 0,0:22:41.81,0:22:47.25,English,,0,0,0,,with some sort of consumer electronic device, then you have a much bigger, effective, addressable model.
-Dialogue: 0,0:22:48.61,0:22:56.77,English,,0,0,0,,All the service that we saw first being generated around the Internet bank, amazon and ebay, etc, etc. Those are all going to move towards being focused to
-Dialogue: 0,0:22:56.77,0:23:01.15,English,,0,0,0,,targeted to consumer electronics. Small handheld device
-Dialogue: 0,0:23:03.74,0:23:10.22,English,,0,0,0,,And there will be great businesses built around those, and I hope that some of you will be will be building those businesses.
-Dialogue: 0,0:23:11.33,0:23:13.89,English,,0,0,0,,A little bit about Ubuntu. How many of you guys are familiar with Ubuntu?
-Dialogue: 0,0:23:16.83,0:23:17.59,English,,0,0,0,,About a third or a half.
-Dialogue: 0,0:23:19.77,0:23:27.01,English,,0,0,0,,Decisions is take some of these big changes to their natural conclusion. If you look at the licensing costs of operating system
-Dialogue: 0,0:23:27.71,0:23:35.43,English,,0,0,0,,It's been dropping and dropping and dropping, so we say, OK, what's the natural conclusion? The natural conclusion is that the business model completely changes.
-Dialogue: 0,0:23:36.04,0:23:41.68,English,,0,0,0,,And people just get rid of licensing all together, so that's why we make Ubuntu absolutely free available.
-Dialogue: 0,0:23:44.10,0:23:49.94,English,,0,0,0,,If you look at the amount of free software that's being used that is increasing steadily, like Apple now.
+Dialogue: 0,0:22:06.30,0:22:11.38,Chinese,,0,0,0,,所以我认为，多数创新、经济活动、以及下一代的大企业都将是
+Dialogue: 0,0:22:06.30,0:22:11.38,English,,0,0,0,,So I think that a lot of the innovation, a lot of the economic, the next generation of big businesses
+Dialogue: 0,0:22:11.38,0:22:17.31,Chinese,,0,0,0,,手持设备或由手持设备驱动
+Dialogue: 0,0:22:11.38,0:22:17.31,English,,0,0,0,,are effectively going to be handheld devices or powered by handheld device
+Dialogue: 0,0:22:17.31,0:22:19.36,Chinese,,0,0,0,,而不是由事件驱动
+Dialogue: 0,0:22:17.31,0:22:19.36,English,,0,0,0,,rather than being powered by incidents
+Dialogue: 0,0:22:19.36,0:22:26.60,Chinese,,0,0,0,,或由PC驱动。因为有更多的人随身携带手持设备，而不是
+Dialogue: 0,0:22:19.36,0:22:26.60,English,,0,0,0,,or powered by the PC, because you have many, many more people who carry hand held devices than you do
+Dialogue: 0,0:22:26.60,0:22:29.53,Chinese,,0,0,0,,一直坐在电脑前。
+Dialogue: 0,0:22:26.60,0:22:29.53,English,,0,0,0,,have people sitting in front of a computer all the time.
+Dialogue: 0,0:22:29.53,0:22:35.09,Chinese,,0,0,0,,我的笔记本电脑现在正在我的车上，但我的手机正在这里，被我随身携带。
+Dialogue: 0,0:22:29.53,0:22:35.09,English,,0,0,0,,I've got a laptop sitting in the car right now, but I've got a phone with me right here.
+Dialogue: 0,0:22:35.09,0:22:41.81,Chinese,,0,0,0,,因此，如果你能提供服务，如果你能通过某种消费类电子设备，围绕向人们提供服务
+Dialogue: 0,0:22:35.09,0:22:41.81,English,,0,0,0,,So if you can provide services, if you can build new economic models around delivering services to people
+Dialogue: 0,0:22:41.81,0:22:48.61,Chinese,,0,0,0,,建立新的经济模式，那么你就有一个更大的、更有效的、可被解决的模式。
+Dialogue: 0,0:22:41.81,0:22:48.61,English,,0,0,0,,with some sort of consumer electronic device, then you have a much bigger, effective, addressable model.
+Dialogue: 0,0:22:48.61,0:22:54.18,Chinese,,0,0,0,,我们一开始看到的所有围绕互联网银行、亚马逊和 ebay 等等形成的服务
+Dialogue: 0,0:22:48.61,0:22:54.18,English,,0,0,0,,All the service that we saw first being generated around the Internet bank, amazon and ebay, etc, etc.
+Dialogue: 0,0:22:54.18,0:23:03.74,Chinese,,0,0,0,,它们都将转向并专注于消费电子产品，即小型手持设备
+Dialogue: 0,0:22:54.18,0:23:03.74,English,,0,0,0,,Those are all going to move towards being focused to targeted to consumer electronics, small handheld device
+Dialogue: 0,0:23:03.74,0:23:06.90,Chinese,,0,0,0,,而围绕这些设备，将会形成新一批伟大的公司
+Dialogue: 0,0:23:03.74,0:23:06.90,English,,0,0,0,,And there will be great businesses built around those, and
+Dialogue: 0,0:23:06.90,0:23:11.33,Chinese,,0,0,0,,我希望你们中的一些人将会创立这些公司
+Dialogue: 0,0:23:06.90,0:23:11.33,English,,0,0,0,,I hope that some of you will be will be building those businesses.
+Dialogue: 0,0:23:11.33,0:23:14.90,Chinese,,0,0,0,,最后说一点点 Ubuntu。你们当中有多少人熟悉 Ubuntu？
+Dialogue: 0,0:23:11.33,0:23:14.90,English,,0,0,0,,A little bit about Ubuntu. How many of you guys are familiar with Ubuntu?
+Dialogue: 0,0:23:16.83,0:23:18.53,Chinese,,0,0,0,,大约三分之一或一半。
+Dialogue: 0,0:23:16.83,0:23:18.53,English,,0,0,0,,About a third or a half.
+Dialogue: 0,0:23:19.77,0:23:23.51,Chinese,,0,0,0,,（我们的）决定是让一些大的变化达成它们的自然目标
+Dialogue: 0,0:23:19.77,0:23:23.51,English,,0,0,0,,Decision is to take some of these big changes to their natural conclusion.
+Dialogue: 0,0:23:23.51,0:23:30.35,Chinese,,0,0,0,,如果你看一下操作系统的许可费用，它一直在下降、下降、再下降
+Dialogue: 0,0:23:23.51,0:23:30.35,English,,0,0,0,,If you look at the licensing costs of operating system, It's been dropping and dropping and dropping
+Dialogue: 0,0:23:30.35,0:23:32.89,Chinese,,0,0,0,,所以我们说，好吧，（这一变化的）自然结论是什么？
+Dialogue: 0,0:23:30.35,0:23:32.89,English,,0,0,0,,so we say, OK, what's the natural conclusion? 
+Dialogue: 0,0:23:32.89,0:23:35.43,Chinese,,0,0,0,,自然结论是，这一商业模式将会完全改变，
+Dialogue: 0,0:23:32.89,0:23:35.43,English,,0,0,0,,The natural conclusion is that the business model completely changes.
+Dialogue: 0,0:23:36.04,0:23:44.10,Chinese,,0,0,0,,而人们将会一同摆脱（操作系统的）许可，所以这就是为什么我们完全免费提供 Ubuntu。
+Dialogue: 0,0:23:36.04,0:23:44.10,English,,0,0,0,,And people just get rid of licensing all together, so that's why we make Ubuntu absolutely freely available.
+Dialogue: 0,0:23:44.10,0:23:50.49,Chinese,,0,0,0,,如果你观察正在使用的自由软件的数量，它们正在稳步增加，比如现在的苹果
+Dialogue: 0,0:23:44.10,0:23:50.49,English,,0,0,0,,If you look at the amount of free software that's being used. That is increasing steadily, like Apple now
+Dialogue: 0,0:23:50.49,0:23:53.33,Chinese,,0,0,0,,在苹果的操作系统中大约有 80% 是自由软件
 Dialogue: 0,0:23:50.49,0:23:53.33,English,,0,0,0,,The Apple operating system consists of about 80% of it.
-Dialogue: 0,0:23:53.87,0:23:58.51,English,,0,0,0,,Is free software, and only about 20% of it is proprietary. So we say, fine, let's take that train.
+Dialogue: 0,0:23:53.33,0:23:59.21,Chinese,,0,0,0,,只有大约20%是专有软件。所以我们说，好吧，让我们乘上这列火车
+Dialogue: 0,0:23:53.33,0:23:59.21,English,,0,0,0,,is free software, and only about 20% of it is proprietary. So we say, fine, let's take that train.
+Dialogue: 0,0:23:59.21,0:24:05.61,Chinese,,0,0,0,,把这列火车开到它的自然终点。因此，所有的Ubuntu都是由自由软件组成的。
 Dialogue: 0,0:23:59.21,0:24:05.61,English,,0,0,0,,Take that train to its natural conclusion. So all of Ubuntu is made up of free software.
-Dialogue: 0,0:24:05.61,0:24:09.41,English,,0,0,0,,Let's make sure that we build something which represents the natural conclusion.
-Dialogue: 0,0:24:10.14,0:24:11.18,English,,0,0,0,,Of that big thing.
-Dialogue: 0,0:24:12.62,0:24:15.94,English,,0,0,0,,Because the technology of that big change, then you become the platform.
-Dialogue: 0,0:24:16.76,0:24:23.92,English,,0,0,0,,So that's why I think of what you are so popular, because it best represents a fundamental shift that's going on in the software industry.
-Dialogue: 0,0:24:25.46,0:24:30.42,English,,0,0,0,,That these are the values that people are looking for. These are the things which empower people most efficiently.
-Dialogue: 0,0:24:31.48,0:24:37.92,English,,0,0,0,,And so as an entrepreneur, if you go into entrepreneurship, I wouldn't encourage you to do the same thing, right? Ask yourself the question.
-Dialogue: 0,0:24:38.36,0:24:43.08,English,,0,0,0,,What are the big changes that I'm interested in How will those affect the field that I'm interested in.
+Dialogue: 0,0:24:05.61,0:24:10.14,Chinese,,0,0,0,,让我们确保我们建立的东西能代表
+Dialogue: 0,0:24:05.61,0:24:10.14,English,,0,0,0,,Let's make sure that we build something which represents the natural conclusion.
+Dialogue: 0,0:24:10.14,0:24:12.62,Chinese,,0,0,0,,那些大事的自然结论。
+Dialogue: 0,0:24:10.14,0:24:12.62,English,,0,0,0,,Of that big thing.
+Dialogue: 0,0:24:12.62,0:24:16.76,Chinese,,0,0,0,,正是因为这个大变化的技术，使你成为了平台。
+Dialogue: 0,0:24:12.62,0:24:16.76,English,,0,0,0,,Because of the technology of that big change, then you become the platform.
+Dialogue: 0,0:24:16.76,0:24:19.14,Chinese,,0,0,0,,因此，这就是为什么我认为 Ubuntu 如此受欢迎
+Dialogue: 0,0:24:16.76,0:24:19.14,English,,0,0,0,,So that's why I think Ubuntu is so popular
+Dialogue: 0,0:24:19.14,0:24:23.92,Chinese,,0,0,0,,因为它很好地代表了软件行业正在发生的根本性转变
+Dialogue: 0,0:24:19.14,0:24:23.92,English,,0,0,0,,because it best represents a fundamental shift that's going on in the software industry.
+Dialogue: 0,0:24:23.92,0:24:31.48,Chinese,,0,0,0,,这些是人们正在寻找的价值。这些是能够最有效地赋能人们的东西。
+Dialogue: 0,0:24:23.92,0:24:31.48,English,,0,0,0,,That these are the values that people are looking for. These are the things which empower people most efficiently.
+Dialogue: 0,0:24:31.48,0:24:35.02,Chinese,,0,0,0,,因此，作为一个企业家，如果你去创业
+Dialogue: 0,0:24:31.48,0:24:35.02,English,,0,0,0,,And so as an entrepreneur, if you go into entrepreneurship
+Dialogue: 0,0:24:35.02,0:24:38.36,Chinese,,0,0,0,,我会鼓励你做同样的事情，对吗？问问自己这个问题
+Dialogue: 0,0:24:35.02,0:24:38.36,English,,0,0,0,,I would encourage you to do the same thing, right? Ask yourself the question.
+Dialogue: 0,0:24:38.36,0:24:43.77,Chinese,,0,0,0,,我感兴趣的大变化是什么？这些变化将如何影响我感兴趣的领域？
+Dialogue: 0,0:24:38.36,0:24:43.77,English,,0,0,0,,What are the big changes that I'm interested in? How will those affect the field that I'm interested in.
+Dialogue: 0,0:24:43.77,0:24:52.11,Chinese,,0,0,0,,以及我如何建立最能反映这种变化、最能实现这种变化的东西？
 Dialogue: 0,0:24:43.77,0:24:52.11,English,,0,0,0,,And how do I build something which best reflects that change, which best implements that change?
