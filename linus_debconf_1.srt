@@ -1,0 +1,300 @@
+1
+00:00:00,600 --> 00:00:03,960
+I'm sorry to ask, uh, this question
+almost, but it's something that I
+
+2
+00:00:03,960 --> 00:00:05,550
+think is a little bit important.
+
+3
+00:00:05,910 --> 00:00:10,140
+Um, how do you think it affects the
+culture of a community of a project
+
+4
+00:00:10,470 --> 00:00:12,330
+when the leader is on that projects?
+
+5
+00:00:12,390 --> 00:00:13,250
+Uh, public mailing.
+
+6
+00:00:13,995 --> 00:00:16,485
+Telling people in response to
+Patrick views that they should
+
+7
+00:00:16,485 --> 00:00:18,044
+be retroactively aborted.
+
+8
+00:00:18,405 --> 00:00:18,585
+Right.
+
+9
+00:00:18,905 --> 00:00:22,244
+And maybe that you're surprised that
+they're still alive because they
+
+10
+00:00:22,244 --> 00:00:24,465
+should have starved to death when
+they were children, because they were
+
+11
+00:00:24,465 --> 00:00:27,225
+too stupid to find a ship to suck on.
+
+12
+00:00:27,604 --> 00:00:34,685
+I, I agree that some people might feel
+put off by that, but on the other hand,
+
+13
+00:00:37,060 --> 00:00:40,810
+You know what I, in the end, I don't care.
+
+14
+00:00:40,990 --> 00:00:41,470
+Right.
+
+15
+00:00:42,070 --> 00:00:46,840
+I care about technology and I've actually
+seen projects that took the whole
+
+16
+00:00:46,840 --> 00:00:51,130
+political correctness so far that the
+project no longer is about the tech.
+
+17
+00:00:52,225 --> 00:01:00,955
+Um, I actually, so my, wow,
+we're getting more questions.
+
+18
+00:01:00,955 --> 00:01:04,285
+I think at some point we
+may want to moderate them.
+
+19
+00:01:04,465 --> 00:01:08,335
+So my team don't get you.
+
+20
+00:01:08,365 --> 00:01:10,585
+I actually am very happy
+to talk about this.
+
+21
+00:01:10,585 --> 00:01:11,875
+It's not a problem for me.
+
+22
+00:01:12,235 --> 00:01:16,885
+Um, my standpoint has always been
+that, Hey, people are different.
+
+23
+00:01:17,400 --> 00:01:18,660
+I'm abrasive.
+
+24
+00:01:19,770 --> 00:01:24,870
+I grew up in a culture that I think is
+not quite as politically correct as the
+
+25
+00:01:24,870 --> 00:01:26,820
+culture, especially in the U S today.
+
+26
+00:01:28,800 --> 00:01:31,890
+I also grew up in a family
+that was largely dysfunctional.
+
+27
+00:01:32,030 --> 00:01:36,650
+So, um, I mean, so people are
+different and some people take
+
+28
+00:01:36,650 --> 00:01:40,790
+offense and some people give offense
+and we all have to live together.
+
+29
+00:01:40,790 --> 00:01:45,500
+But the living together is not by
+finding some lowest common denominator.
+
+30
+00:01:46,090 --> 00:01:47,110
+The living together.
+
+31
+00:01:47,140 --> 00:01:51,640
+And it has actually been fairly
+successful is to try and realize
+
+32
+00:01:51,640 --> 00:01:57,700
+that, Hey, unlike your family, you
+can actually pick your friends and
+
+33
+00:01:57,700 --> 00:02:02,009
+you can take the coworkers and open
+source is actually really good at that.
+
+34
+00:02:03,255 --> 00:02:07,965
+Better so than many commercial software
+projects, because in commercial setting,
+
+35
+00:02:08,265 --> 00:02:13,565
+you're kind of stuck with your boss
+in open source, find people you like
+
+36
+00:02:13,715 --> 00:02:15,635
+find people you like working with.
+
+37
+00:02:16,205 --> 00:02:21,665
+Um, I, I work directly with.
+
+38
+00:02:24,525 --> 00:02:29,685
+Let's say 20 people closely and
+50 people more or less, right?
+
+39
+00:02:30,165 --> 00:02:31,335
+There's every release.
+
+40
+00:02:31,335 --> 00:02:37,035
+There's a thousand people involved
+find somebody who liked better than me.
+
+41
+00:02:37,175 --> 00:02:38,235
+That's fine.
+
+42
+00:02:38,295 --> 00:02:38,745
+Right.
+
+43
+00:02:39,135 --> 00:02:42,825
+I'm not willing to be less honest.
+
+44
+00:02:43,965 --> 00:02:46,365
+Uh, because I know I'm abrasive, right.
+
+45
+00:02:46,935 --> 00:02:53,825
+And quite often the whole, like when I
+say something like, I wonder how he grew
+
+46
+00:02:53,825 --> 00:02:59,285
+to be an adult when he's so stupid that
+he, I don't expect him to find food.
+
+47
+00:03:00,095 --> 00:03:05,795
+Some people might realize that
+it's kind of hyperbole and joke.
+
+48
+00:03:05,825 --> 00:03:06,695
+Not I'm not.
+
+49
+00:03:08,025 --> 00:03:10,185
+I'm not saying something
+bad that, you know, it's not
+
+50
+00:03:10,185 --> 00:03:11,415
+politically correct or whatever.
+
+51
+00:03:11,415 --> 00:03:16,035
+Although certainly I would understand if
+people do say this, it's more about, um,
+
+52
+00:03:16,065 --> 00:03:20,855
+treating other people with respect and
+maybe technical, you know what I mean?
+
+53
+00:03:20,855 --> 00:03:24,185
+You going to flow at everything you
+want, but I don't respect people on this.
+
+54
+00:03:24,235 --> 00:03:26,855
+I think they deserve the respect.
+
+55
+00:03:27,125 --> 00:03:30,275
+There are people who think that respect
+is something that should be given.
+
+56
+00:03:30,635 --> 00:03:35,405
+And I happened to be one of the people
+who are perfectly happy saying no.
+
+57
+00:03:36,375 --> 00:03:37,635
+Respect should be earned.
+
+58
+00:03:38,025 --> 00:03:40,335
+And without being
+earned, you don't get it.
+
+59
+00:03:40,425 --> 00:03:40,845
+Right.
+
+60
+00:03:41,445 --> 00:03:46,575
+It's really that simple and not
+everybody agrees and that's fine too.
+
+61
+00:03:46,635 --> 00:03:47,115
+Right.
+
+62
+00:03:47,865 --> 00:03:49,785
+There are people I refuse to work with.
+
+63
+00:03:50,775 --> 00:03:51,165
+Right.
+
+64
+00:03:52,395 --> 00:03:57,165
+It's it cuts both ways
+and I realized that.
+
+65
+00:03:58,175 --> 00:03:58,865
+Okay, thank you.
+
+66
+00:03:58,925 --> 00:03:59,135
+Thanks.
+
